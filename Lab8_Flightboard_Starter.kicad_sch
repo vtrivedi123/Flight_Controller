@@ -6287,28 +6287,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1327cd0b-7a67-4479-ab02-503ec738694c")
 		(property "Reference" "C4"
-			(at 107.95 99.0538 0)
+			(at 104.394 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TBD"
-			(at 107.95 96.5138 0)
+		(property "Value" "33n"
+			(at 104.394 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -6732,7 +6731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "0.1u"
 			(at 129.794 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7134,7 +7133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10k"
 			(at 136.906 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7447,7 +7446,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "6.8u"
 			(at 135.89 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8238,7 +8237,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "55k"
 			(at 136.652 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8642,7 +8641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "0.1u"
 			(at 106.68 85.0962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10960,7 +10959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "20u"
 			(at 149.86 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12415,7 +12414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10u"
 			(at 84.582 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12576,7 +12575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10u"
 			(at 97.79 85.0962 0)
 			(show_name no)
 			(do_not_autoplace no)
