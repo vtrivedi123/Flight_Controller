@@ -5714,6 +5714,12 @@
 		(uuid "d437d3d8-6832-4cf7-97cc-3dfd80ed9de2")
 	)
 	(junction
+		(at 293.37 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c7e04e3-74e5-46cd-b936-7c902dcb2d4b")
+	)
+	(junction
 		(at 90.17 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5730,6 +5736,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43c2a440-f53e-442a-9c78-71eb14b9f13f")
+	)
+	(junction
+		(at 293.37 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c2da68-47a3-4e76-9d20-4f44318c7dd2")
 	)
 	(junction
 		(at 104.14 81.28)
@@ -5750,6 +5762,12 @@
 		(uuid "69d21620-f2a8-4576-a71e-6cac9605f82f")
 	)
 	(junction
+		(at 293.37 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d978a0f-fc5a-476a-a073-12abfb0cac32")
+	)
+	(junction
 		(at 129.54 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5762,14 +5780,42 @@
 		(uuid "9f4efb21-3aa2-497f-96a7-d43bbf411d01")
 	)
 	(junction
+		(at 293.37 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afa09435-542d-4242-b819-42d84c92a4ec")
+	)
+	(junction
 		(at 142.24 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5f08c73-5025-43c8-97a1-d315c8883aaf")
 	)
+	(junction
+		(at 71.12 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc22ed1a-e2ca-4461-b767-89d6f65e2790")
+	)
 	(no_connect
 		(at 114.3 83.82)
 		(uuid "0862dd2a-16c7-4a51-95c8-1d5ee5eb3ece")
+	)
+	(no_connect
+		(at 330.2 198.12)
+		(uuid "751468eb-3969-4211-af23-029b4ed963e9")
+	)
+	(no_connect
+		(at 330.2 162.56)
+		(uuid "7d06dc30-f4a6-4b6c-bd23-ec82557e902c")
+	)
+	(no_connect
+		(at 330.2 173.99)
+		(uuid "8795d8ae-9c7a-4139-b687-2f1847a15cc9")
+	)
+	(no_connect
+		(at 330.2 185.42)
+		(uuid "e087279b-cddb-47b5-85ad-49f5825a36e4")
 	)
 	(wire
 		(pts
@@ -5873,7 +5919,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 44.45) (xy 73.66 44.45)
+			(xy 293.37 181.61) (xy 293.37 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4e49ac-ac51-42d1-b8af-6328f6dd8234")
+	)
+	(wire
+		(pts
+			(xy 69.85 44.45) (xy 71.12 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5910,6 +5966,16 @@
 			(type dash)
 		)
 		(uuid "a802a9e9-6257-4657-90fe-090ea98278c3")
+	)
+	(wire
+		(pts
+			(xy 293.37 161.29) (xy 293.37 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93195b8-85f2-4f9c-b923-e9a7dbf20c4d")
 	)
 	(wire
 		(pts
@@ -5961,6 +6027,16 @@
 		)
 		(uuid "ca036a56-b007-4d03-89e4-57897d04c857")
 	)
+	(wire
+		(pts
+			(xy 293.37 191.77) (xy 293.37 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd34bfe8-6272-408a-9620-b60ca7abd885")
+	)
 	(polyline
 		(pts
 			(xy 127 124.46) (xy 127 212.725)
@@ -5980,6 +6056,36 @@
 			(type default)
 		)
 		(uuid "dc545b0c-7905-4bbf-b963-914a4bc88f1c")
+	)
+	(wire
+		(pts
+			(xy 71.12 43.18) (xy 71.12 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fd0033-fab5-4409-83a8-f10c9537a6fd")
+	)
+	(wire
+		(pts
+			(xy 71.12 44.45) (xy 73.66 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1026e6e-f712-486c-b84d-abd0027f6b23")
+	)
+	(wire
+		(pts
+			(xy 293.37 171.45) (xy 293.37 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79a219e-b4b4-4bdb-a0c6-0d29ed1f083d")
 	)
 	(polyline
 		(pts
@@ -6011,6 +6117,36 @@
 		)
 		(uuid "09708983-4285-4c84-a485-721890905ffc")
 	)
+	(label "VBAT"
+		(at 248.92 196.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f9ea37d-7b0b-418c-99af-acb14343e21d")
+	)
+	(label "VBAT"
+		(at 248.92 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fb51cb9-3023-4b7e-9751-ed94228b19f0")
+	)
+	(label "VBAT"
+		(at 248.92 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30d449e8-cbf4-45be-9f4f-54d24de83da0")
+	)
 	(label "5V_OUT"
 		(at 167.64 88.9 0)
 		(effects
@@ -6020,6 +6156,96 @@
 			(justify left bottom)
 		)
 		(uuid "359ea008-0b4a-4f8a-807f-710def573320")
+	)
+	(label "M3_CMD"
+		(at 300.99 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c664185-9c89-4f36-858b-21c54ce3ea74")
+	)
+	(label "MOTOR1"
+		(at 293.37 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3db10256-f119-4c22-869f-80d7985e274c")
+	)
+	(label "M4_CMD"
+		(at 300.99 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d5af2e6-3f42-4532-a610-17af70064b0a")
+	)
+	(label "M2_CMD"
+		(at 300.99 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5372777f-9b77-40da-8bfe-762f2c1bb1c6")
+	)
+	(label "MOTOR2"
+		(at 293.37 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dffeecb-1062-4eab-8b39-83f5e1ceddd8")
+	)
+	(label "M1_CMD"
+		(at 300.99 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f18b780-b245-4eeb-96bd-3f1626623f7f")
+	)
+	(label "MOTOR4"
+		(at 330.2 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "806d09dd-9434-44b2-ba0a-58db7600ccd3")
+	)
+	(label "MOTOR4"
+		(at 293.37 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a87b586-100f-4459-993c-f3a0ddadbfc6")
+	)
+	(label "VBAT"
+		(at 71.12 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a11537a1-be07-4ed4-8e35-8e6b133b73b7")
 	)
 	(label "LIPO_IN"
 		(at 87.63 81.28 180)
@@ -6031,6 +6257,16 @@
 		)
 		(uuid "a383fe60-b04a-4e51-9e7c-30c20d71e096")
 	)
+	(label "MOTOR1"
+		(at 330.2 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0a74f23-b85b-435b-9b17-8d1d7c2648a7")
+	)
 	(label "LIPO_IN"
 		(at 85.09 44.45 0)
 		(effects
@@ -6040,6 +6276,46 @@
 			(justify left bottom)
 		)
 		(uuid "b5d6b0b5-75c4-45b2-b275-cb6080d75db5")
+	)
+	(label "MOTOR3"
+		(at 293.37 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfdcfc1e-52bf-4b14-a3d8-f6bcafc7c0b9")
+	)
+	(label "MOTOR3"
+		(at 330.2 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dabb8b21-7b9a-442a-9cb2-26714a110507")
+	)
+	(label "VBAT"
+		(at 248.92 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5d55b64-c761-4ecc-b27c-855829640321")
+	)
+	(label "MOTOR2"
+		(at 330.2 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee728dfc-4d93-4ceb-af33-a6078170a435")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6199,8 +6475,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 275.59 163.83 0)
+		(lib_id "power:GND")
+		(at 248.92 176.53 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6209,31 +6485,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "11430ccb-3e83-459c-b850-0a178d97337d")
-		(property "Reference" "J8"
-			(at 278.13 162.5599 0)
+		(uuid "103ed2e6-ed21-402b-aa8b-300218f183fc")
+		(property "Reference" "#PWR014"
+			(at 242.57 176.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "ESC2_GND"
-			(at 278.13 165.0999 0)
+		(property "Value" "GND"
+			(at 245.11 176.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "FC_Mechanical:Pad_x1_6mm"
-			(at 275.59 163.83 0)
+		(property "Footprint" ""
+			(at 248.92 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6244,7 +6520,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 163.83 0)
+			(at 248.92 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c446b3ea-21d8-4900-87f7-8043282f17e4")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 254 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11430ccb-3e83-459c-b850-0a178d97337d")
+		(property "Reference" "J8"
+			(at 256.54 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESC2_GND"
+			(at 256.54 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FC_Mechanical:Pad_x1_6mm"
+			(at 254 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6255,7 +6610,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 275.59 163.83 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6272,6 +6627,85 @@
 			(project "Lab8_Flightboard_Starter"
 				(path "/8da9c326-3337-46e2-8624-067ffceed853"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 165.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "123a8098-c5ad-4362-bd5f-7506b0d36a83")
+		(property "Reference" "#PWR013"
+			(at 242.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "421f135d-6068-444d-bd9a-001460aede53")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6438,7 +6872,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 254 201.93 90)
+		(at 297.18 165.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6448,7 +6882,7 @@
 		(dnp no)
 		(uuid "1399b5d7-a3ac-4f80-b030-961db44bbeb8")
 		(property "Reference" "R6"
-			(at 254 197.358 90)
+			(at 296.926 162.814 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6458,7 +6892,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 254 199.644 90)
+			(at 297.18 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6468,7 +6902,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 254 203.708 90)
+			(at 297.18 166.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,7 +6913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 201.93 0)
+			(at 297.18 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6490,7 +6924,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 254 201.93 0)
+			(at 297.18 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6510,6 +6944,85 @@
 			(project "Lab8_Flightboard_Starter"
 				(path "/8da9c326-3337-46e2-8624-067ffceed853"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 285.75 185.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c2d2d5d-8134-4f25-9bc9-04381cf2406a")
+		(property "Reference" "#PWR019"
+			(at 279.4 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 185.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 285.75 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1299a1b8-eef5-48e3-8c41-1c41b7aa4f46")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6950,6 +7463,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 285.75 165.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2da67ccb-8375-4c30-a5ee-3314b3172d45")
+		(property "Reference" "#PWR017"
+			(at 279.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 285.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17280fed-4a5a-42ce-872f-f8c383ab1b8a")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 142.24 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -7028,7 +7620,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 299.72 194.31 0)
+		(at 335.28 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7039,7 +7631,7 @@
 		(fields_autoplaced yes)
 		(uuid "3327a9b9-e25f-493f-ad2e-6aabf6cef59d")
 		(property "Reference" "J4"
-			(at 302.26 193.0399 0)
+			(at 337.82 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7050,7 +7642,7 @@
 			)
 		)
 		(property "Value" "Motor4"
-			(at 302.26 195.5799 0)
+			(at 337.82 199.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7061,7 +7653,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 299.72 194.31 0)
+			(at 335.28 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7072,7 +7664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 194.31 0)
+			(at 335.28 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7083,7 +7675,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 299.72 194.31 0)
+			(at 335.28 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7270,7 +7862,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 243.84 201.93 90)
+		(at 289.56 195.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7280,7 +7872,7 @@
 		(dnp no)
 		(uuid "3c8e32e1-b075-45de-b434-9f29deceb08b")
 		(property "Reference" "R12"
-			(at 243.7112 198.374 90)
+			(at 289.4312 192.024 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7290,7 +7882,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 243.4572 200.152 90)
+			(at 289.1772 193.802 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7300,7 +7892,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 243.84 203.708 90)
+			(at 289.56 197.358 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7311,7 +7903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 201.93 0)
+			(at 289.56 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7322,7 +7914,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 243.84 201.93 0)
+			(at 289.56 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7585,7 +8177,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 251.46 163.83 0)
+		(at 254 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7596,7 +8188,7 @@
 		(fields_autoplaced yes)
 		(uuid "4991e448-17e1-4e58-8e90-66c5d6c73bb4")
 		(property "Reference" "J6"
-			(at 254 162.5599 0)
+			(at 256.54 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7607,7 +8199,7 @@
 			)
 		)
 		(property "Value" "ESC1_GND"
-			(at 254 165.0999 0)
+			(at 256.54 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7618,7 +8210,7 @@
 			)
 		)
 		(property "Footprint" "FC_Mechanical:Pad_x1_6mm"
-			(at 251.46 163.83 0)
+			(at 254 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7629,7 +8221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 163.83 0)
+			(at 254 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7640,7 +8232,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 251.46 163.83 0)
+			(at 254 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7819,6 +8411,164 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 330.2 176.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5040082c-c560-4234-bd34-0faad359bfb2")
+		(property "Reference" "#PWR022"
+			(at 323.85 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 176.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 330.2 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6349579-b982-4057-800d-3dbae4ee6210")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 189.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55829341-d3a7-4192-9601-ae8952b09f1f")
+		(property "Reference" "#PWR015"
+			(at 242.57 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 189.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3b8ce17-2dc1-45eb-b369-4388d4f63242")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 140.97 179.07 0)
 		(unit 1)
@@ -7902,7 +8652,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 243.84 189.23 90)
+		(at 289.56 185.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7912,7 +8662,7 @@
 		(dnp no)
 		(uuid "598df1c9-9587-4cc8-a034-b2d92d28a01d")
 		(property "Reference" "R10"
-			(at 243.84 185.674 90)
+			(at 289.56 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7922,7 +8672,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 243.84 187.452 90)
+			(at 289.56 183.642 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7932,7 +8682,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 243.84 191.008 90)
+			(at 289.56 187.198 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7943,7 +8693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 189.23 0)
+			(at 289.56 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7954,7 +8704,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 243.84 189.23 0)
+			(at 289.56 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7981,7 +8731,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 275.59 176.53 0)
+		(at 254 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7992,7 +8742,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a4120e9-f61c-4a6e-984d-0069531ea031")
 		(property "Reference" "J12"
-			(at 278.13 175.2599 0)
+			(at 256.54 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8003,7 +8753,7 @@
 			)
 		)
 		(property "Value" "ESC4_GND"
-			(at 278.13 177.7999 0)
+			(at 256.54 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8014,7 +8764,7 @@
 			)
 		)
 		(property "Footprint" "FC_Mechanical:Pad_x1_6mm"
-			(at 275.59 176.53 0)
+			(at 254 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8025,7 +8775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 176.53 0)
+			(at 254 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8036,7 +8786,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 275.59 176.53 0)
+			(at 254 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8053,6 +8803,85 @@
 			(project "Lab8_Flightboard_Starter"
 				(path "/8da9c326-3337-46e2-8624-067ffceed853"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 330.2 187.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c564481-78ad-4298-bba2-87d74d24e182")
+		(property "Reference" "#PWR023"
+			(at 323.85 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 187.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 330.2 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1d829cc-1813-4a8f-ba0d-39d10fa5f542")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8138,7 +8967,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 276.86 213.36 270)
+		(at 297.18 195.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8148,7 +8977,7 @@
 		(dnp no)
 		(uuid "6aa0a4e2-d3fc-4c91-be61-ed562725891a")
 		(property "Reference" "R13"
-			(at 276.86 215.392 90)
+			(at 297.18 197.612 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8158,7 +8987,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 276.606 211.2028 90)
+			(at 296.926 193.4228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8168,7 +8997,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 276.86 211.582 90)
+			(at 297.18 193.802 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8179,7 +9008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 213.36 0)
+			(at 297.18 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +9019,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 276.86 213.36 0)
+			(at 297.18 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8619,6 +9448,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 289.56 175.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ed98a4c-4ce7-44ab-b83c-4b7f7ba27d56")
+		(property "Reference" "R8"
+			(at 289.306 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD"
+			(at 289.306 173.482 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 289.56 177.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9461eba4-be70-4da6-bf3a-379d46300f30")
+		)
+		(pin "1"
+			(uuid "ae681fd7-3106-4090-bc6f-83e0b4bcf7dd")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 104.14 83.82 0)
 		(unit 1)
@@ -8784,7 +9692,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 250.19 171.45 0)
+		(at 254 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8795,7 +9703,7 @@
 		(fields_autoplaced yes)
 		(uuid "890794cc-eb25-4c17-9719-1827545bf290")
 		(property "Reference" "J9"
-			(at 252.73 170.1799 0)
+			(at 256.54 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8806,7 +9714,7 @@
 			)
 		)
 		(property "Value" "ESC3_VBAT"
-			(at 252.73 172.7199 0)
+			(at 256.54 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8817,7 +9725,7 @@
 			)
 		)
 		(property "Footprint" "FC_Mechanical:Pad_x1_6mm"
-			(at 250.19 171.45 0)
+			(at 254 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8828,7 +9736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 171.45 0)
+			(at 254 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8839,7 +9747,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 250.19 171.45 0)
+			(at 254 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9431,7 +10339,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 299.72 181.61 0)
+		(at 335.28 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9442,7 +10350,7 @@
 		(fields_autoplaced yes)
 		(uuid "90753299-9665-4734-84a1-39a918a7f400")
 		(property "Reference" "J3"
-			(at 302.26 180.3399 0)
+			(at 337.82 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9453,7 +10361,7 @@
 			)
 		)
 		(property "Value" "Motor3"
-			(at 302.26 182.8799 0)
+			(at 337.82 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9464,7 +10372,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 299.72 181.61 0)
+			(at 335.28 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9475,7 +10383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 181.61 0)
+			(at 335.28 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9486,7 +10394,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 299.72 181.61 0)
+			(at 335.28 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9839,6 +10747,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 285.75 195.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98ddb40a-73fa-46d8-a832-0dd6f6caec9f")
+		(property "Reference" "#PWR020"
+			(at 279.4 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 195.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 285.75 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f988a82-f4b4-4ea1-8dcd-bb8b61717731")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 226.06 260.35 0)
 		(unit 1)
@@ -10154,7 +11141,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 250.19 176.53 0)
+		(at 254 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10165,7 +11152,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac323082-ae30-4138-be4f-938a6280937d")
 		(property "Reference" "J10"
-			(at 252.73 175.2599 0)
+			(at 256.54 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10176,7 +11163,7 @@
 			)
 		)
 		(property "Value" "ESC3_GND"
-			(at 252.73 177.7999 0)
+			(at 256.54 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10187,7 +11174,7 @@
 			)
 		)
 		(property "Footprint" "FC_Mechanical:Pad_x1_6mm"
-			(at 250.19 176.53 0)
+			(at 254 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10198,7 +11185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 176.53 0)
+			(at 254 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10209,7 +11196,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 250.19 176.53 0)
+			(at 254 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10351,7 +11338,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 241.3 213.36 270)
+		(at 289.56 165.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10361,7 +11348,7 @@
 		(dnp no)
 		(uuid "b178d09f-d588-4095-b82f-528f2795ff3e")
 		(property "Reference" "R7"
-			(at 241.3 215.392 90)
+			(at 289.56 163.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10371,7 +11358,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 241.3 211.074 90)
+			(at 289.56 167.386 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10381,7 +11368,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 241.3 211.582 90)
+			(at 289.56 166.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10392,7 +11379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 213.36 0)
+			(at 289.56 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10403,7 +11390,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 241.3 213.36 0)
+			(at 289.56 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10430,7 +11417,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 299.72 158.75 0)
+		(at 335.28 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10441,7 +11428,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2f0fcd5-1d78-436c-8dbd-433358b79514")
 		(property "Reference" "J1"
-			(at 302.26 157.4799 0)
+			(at 337.82 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10452,7 +11439,7 @@
 			)
 		)
 		(property "Value" "Motor1"
-			(at 302.26 160.0199 0)
+			(at 337.82 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10463,7 +11450,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 299.72 158.75 0)
+			(at 335.28 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10474,7 +11461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 158.75 0)
+			(at 335.28 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10485,7 +11472,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 299.72 158.75 0)
+			(at 335.28 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10701,7 +11688,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 275.59 158.75 0)
+		(at 254 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10712,7 +11699,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdbc21ce-0b4e-4571-af86-3fce3ff7884a")
 		(property "Reference" "J7"
-			(at 278.13 157.4799 0)
+			(at 256.54 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10723,7 +11710,7 @@
 			)
 		)
 		(property "Value" "ESC2_VBAT"
-			(at 278.13 160.0199 0)
+			(at 256.54 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10734,7 +11721,7 @@
 			)
 		)
 		(property "Footprint" "FC_Mechanical:Pad_x1_6mm"
-			(at 275.59 158.75 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10745,7 +11732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 158.75 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10756,7 +11743,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 275.59 158.75 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10859,7 +11846,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 213.36 270)
+		(at 297.18 175.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10869,7 +11856,7 @@
 		(dnp no)
 		(uuid "c113ee0c-f999-4298-af36-23028900e4af")
 		(property "Reference" "R9"
-			(at 252.73 215.392 90)
+			(at 297.18 177.292 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10879,7 +11866,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 252.73 211.328 90)
+			(at 297.18 173.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10889,7 +11876,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 252.73 211.582 90)
+			(at 297.18 173.482 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10900,7 +11887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 213.36 0)
+			(at 297.18 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10911,7 +11898,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 252.73 213.36 0)
+			(at 297.18 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10959,7 +11946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "22u"
 			(at 149.86 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11108,85 +12095,6 @@
 			(project "Lab8_Flightboard_Starter"
 				(path "/8da9c326-3337-46e2-8624-067ffceed853"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 252.73 189.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c79182ac-1066-4e09-ab7c-2ac1772ee0f2")
-		(property "Reference" "R8"
-			(at 252.476 185.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TBD"
-			(at 252.476 187.452 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 252.73 191.008 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 252.73 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9b22c561-c113-45eb-a937-b39f098ea145")
-		)
-		(pin "1"
-			(uuid "8c4ef968-6ece-4d5d-96b0-16856f52cf7c")
-		)
-		(instances
-			(project "Lab8_Flightboard_Starter"
-				(path "/8da9c326-3337-46e2-8624-067ffceed853"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11384,6 +12292,85 @@
 			(project "Lab8_Flightboard_Starter"
 				(path "/8da9c326-3337-46e2-8624-067ffceed853"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 330.2 200.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc2b9f0c-f0de-4cdf-99a5-12d51fb5b221")
+		(property "Reference" "#PWR024"
+			(at 323.85 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 200.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 330.2 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39446ed4-b84c-4a75-8f82-d3ec55f0f102")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11794,6 +12781,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 285.75 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8136c01-d2b4-426c-8c73-0a5e2cd080e2")
+		(property "Reference" "#PWR018"
+			(at 279.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 175.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 285.75 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a000ae8-1b0c-4191-9058-7c5a32230c09")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:TPS62933")
 		(at 121.92 88.9 0)
 		(unit 1)
@@ -11893,7 +12959,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 251.46 158.75 0)
+		(at 254 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11904,7 +12970,7 @@
 		(fields_autoplaced yes)
 		(uuid "df4fd0f5-6aa6-490c-a362-66da254fa9f3")
 		(property "Reference" "J5"
-			(at 254 157.4799 0)
+			(at 256.54 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11915,7 +12981,7 @@
 			)
 		)
 		(property "Value" "ESC1_VBAT"
-			(at 254 160.0199 0)
+			(at 256.54 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11926,7 +12992,7 @@
 			)
 		)
 		(property "Footprint" "FC_Mechanical:Pad_x1_6mm"
-			(at 251.46 158.75 0)
+			(at 254 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11937,7 +13003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 158.75 0)
+			(at 254 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11948,7 +13014,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 251.46 158.75 0)
+			(at 254 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12229,8 +13295,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 299.72 170.18 0)
+		(lib_id "power:GND")
+		(at 248.92 201.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12239,31 +13305,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "efa6fa5d-2f53-4cdf-b37e-e17ce6007286")
-		(property "Reference" "J2"
-			(at 302.26 168.9099 0)
+		(uuid "ec1f0c38-f113-46ac-9221-fbcdaff90ba6")
+		(property "Reference" "#PWR016"
+			(at 242.57 201.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Motor2"
-			(at 302.26 171.4499 0)
+		(property "Value" "GND"
+			(at 245.11 201.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 299.72 170.18 0)
+		(property "Footprint" ""
+			(at 248.92 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12274,7 +13340,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 170.18 0)
+			(at 248.92 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "708befae-35e4-4136-9e17-209a8f3a8dd4")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 335.28 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efa6fa5d-2f53-4cdf-b37e-e17ce6007286")
+		(property "Reference" "J2"
+			(at 337.82 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor2"
+			(at 337.82 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 335.28 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12285,7 +13430,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 299.72 170.18 0)
+			(at 335.28 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12314,8 +13459,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 264.16 213.36 270)
+		(lib_id "power:GND")
+		(at 330.2 165.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12323,9 +13468,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f2437e70-92b6-4c8a-ace7-7c6098b2e29d")
-		(property "Reference" "R11"
-			(at 264.16 215.392 90)
+		(fields_autoplaced yes)
+		(uuid "f125afac-ca75-4a8f-80e2-ec9a60a5fa74")
+		(property "Reference" "#PWR021"
+			(at 323.85 165.1 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12334,18 +13481,19 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
-			(at 264.16 211.328 90)
+		(property "Value" "GND"
+			(at 326.39 165.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 264.16 211.582 90)
+		(property "Footprint" ""
+			(at 330.2 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12356,7 +13504,83 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 213.36 0)
+			(at 330.2 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 330.2 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbdf79a4-efc1-459f-90d3-1f1f5b2eff58")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 297.18 185.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2437e70-92b6-4c8a-ace7-7c6098b2e29d")
+		(property "Reference" "R11"
+			(at 297.18 187.452 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD"
+			(at 297.18 183.388 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 297.18 183.642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12367,7 +13591,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 264.16 213.36 0)
+			(at 297.18 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12475,7 +13699,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 275.59 171.45 0)
+		(at 254 196.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12486,7 +13710,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6f0f459-3e05-4ae8-94ed-eb3b9c8f4115")
 		(property "Reference" "J11"
-			(at 278.13 170.1799 0)
+			(at 256.54 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12497,7 +13721,7 @@
 			)
 		)
 		(property "Value" "ESC4_VBAT"
-			(at 278.13 172.7199 0)
+			(at 256.54 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12508,7 +13732,7 @@
 			)
 		)
 		(property "Footprint" "FC_Mechanical:Pad_x1_6mm"
-			(at 275.59 171.45 0)
+			(at 254 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12519,7 +13743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 171.45 0)
+			(at 254 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12530,7 +13754,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 275.59 171.45 0)
+			(at 254 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
