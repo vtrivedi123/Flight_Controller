@@ -1,0 +1,19 @@
+#VRML V2.0 utf8
+# Simplified project-local model for a nominal HiLetgo/GY-521 MPU6050 module.
+# KiCad VRML units are 2.54 mm. Footprint dimensions must be checked against the received clone.
+
+DEF PCB Appearance { material Material { diffuseColor 0.02 0.18 0.55 specularColor 0.15 0.15 0.15 shininess 0.25 } }
+DEF GOLD Appearance { material Material { diffuseColor 0.85 0.65 0.12 specularColor 0.35 0.28 0.08 shininess 0.45 } }
+DEF BLACK Appearance { material Material { diffuseColor 0.035 0.035 0.035 specularColor 0.12 0.12 0.12 shininess 0.3 } }
+
+Transform { translation 0 0 0.315 children [ Shape { appearance USE PCB geometry Box { size 6.126 7.976 0.630 } } ] }
+Transform { translation 0.35 0 0.79 children [ Shape { appearance USE BLACK geometry Box { size 1.65 1.65 0.32 } } ] }
+Transform { translation -2.563 0 0.88 children [ Shape { appearance USE BLACK geometry Box { size 0.9 7.45 0.5 } } ] }
+Transform { translation -2.563 -3.5 1.55 children [ Shape { appearance USE GOLD geometry Box { size 0.24 0.24 2.4 } } ] }
+Transform { translation -2.563 -2.5 1.55 children [ Shape { appearance USE GOLD geometry Box { size 0.24 0.24 2.4 } } ] }
+Transform { translation -2.563 -1.5 1.55 children [ Shape { appearance USE GOLD geometry Box { size 0.24 0.24 2.4 } } ] }
+Transform { translation -2.563 -0.5 1.55 children [ Shape { appearance USE GOLD geometry Box { size 0.24 0.24 2.4 } } ] }
+Transform { translation -2.563 0.5 1.55 children [ Shape { appearance USE GOLD geometry Box { size 0.24 0.24 2.4 } } ] }
+Transform { translation -2.563 1.5 1.55 children [ Shape { appearance USE GOLD geometry Box { size 0.24 0.24 2.4 } } ] }
+Transform { translation -2.563 2.5 1.55 children [ Shape { appearance USE GOLD geometry Box { size 0.24 0.24 2.4 } } ] }
+Transform { translation -2.563 3.5 1.55 children [ Shape { appearance USE GOLD geometry Box { size 0.24 0.24 2.4 } } ] }

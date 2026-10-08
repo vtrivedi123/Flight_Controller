@@ -1,0 +1,83 @@
+(footprint "MPU6050_Adafruit"
+  (version 20240108)
+  (generator "openai")
+  (layer "F.Cu")
+  (descr "Adafruit MPU6050 6-DoF accelerometer/gyro breakout, 25.4 x 17.78 mm, dual 1x6 2.54 mm headers, four 2.5 mm mounting holes. Geometry derived from Adafruit-MPU6050-PCB Eagle board source.")
+  (tags "Adafruit MPU6050 breakout accelerometer gyro I2C STEMMA QT")
+  (attr through_hole)
+
+  (fp_text reference "REF**"
+    (at 0 -10.4 0)
+    (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "MPU6050_Adafruit"
+    (at 0 10.4 0)
+    (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_line (start -10.16 -8.89) (end 10.16 -8.89) (stroke (width 0.25) (type default)) (layer "F.SilkS"))
+  (fp_arc  (start 10.16 -8.89) (mid 11.956 -8.146) (end 12.7 -6.35) (stroke (width 0.25) (type default)) (fill none) (layer "F.SilkS"))
+  (fp_line (start 12.7 -6.35) (end 12.7 6.35) (stroke (width 0.25) (type default)) (layer "F.SilkS"))
+  (fp_arc  (start 12.7 6.35) (mid 11.956 8.146) (end 10.16 8.89) (stroke (width 0.25) (type default)) (fill none) (layer "F.SilkS"))
+  (fp_line (start 10.16 8.89) (end -10.16 8.89) (stroke (width 0.25) (type default)) (layer "F.SilkS"))
+  (fp_arc  (start -10.16 8.89) (mid -11.956 8.146) (end -12.7 6.35) (stroke (width 0.25) (type default)) (fill none) (layer "F.SilkS"))
+  (fp_line (start -12.7 6.35) (end -12.7 -6.35) (stroke (width 0.25) (type default)) (layer "F.SilkS"))
+  (fp_arc  (start -12.7 -6.35) (mid -11.956 -8.146) (end -10.16 -8.89) (stroke (width 0.25) (type default)) (fill none) (layer "F.SilkS"))
+
+  (fp_line (start -10.16 -8.89) (end 10.16 -8.89) (stroke (width 0.1) (type default)) (layer "F.Fab"))
+  (fp_arc  (start 10.16 -8.89) (mid 11.956 -8.146) (end 12.7 -6.35) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab"))
+  (fp_line (start 12.7 -6.35) (end 12.7 6.35) (stroke (width 0.1) (type default)) (layer "F.Fab"))
+  (fp_arc  (start 12.7 6.35) (mid 11.956 8.146) (end 10.16 8.89) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab"))
+  (fp_line (start 10.16 8.89) (end -10.16 8.89) (stroke (width 0.1) (type default)) (layer "F.Fab"))
+  (fp_arc  (start -10.16 8.89) (mid -11.956 8.146) (end -12.7 6.35) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab"))
+  (fp_line (start -12.7 6.35) (end -12.7 -6.35) (stroke (width 0.1) (type default)) (layer "F.Fab"))
+  (fp_arc  (start -12.7 -6.35) (mid -11.956 -8.146) (end -10.16 -8.89) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab"))
+
+  (fp_rect (start -12.95 -9.14) (end 12.95 9.14)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
+
+  (fp_text user "VIN" (at -6.35 8.0) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+  (fp_text user "3Vo" (at -3.81 8.0) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+  (fp_text user "GND" (at -1.27 8.0) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+  (fp_text user "SCL" (at 1.27 8.0) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+  (fp_text user "SDA" (at 3.81 8.0) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+  (fp_text user "INT" (at 6.35 8.0) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+
+  (fp_text user "AD0"   (at -6.35 -7.7) (layer "F.Fab") (effects (font (size 0.75 0.75) (thickness 0.1))))
+  (fp_text user "FSYNC" (at -3.81 -7.7) (layer "F.Fab") (effects (font (size 0.65 0.65) (thickness 0.1))))
+  (fp_text user "SCE"   (at -1.27 -7.7) (layer "F.Fab") (effects (font (size 0.75 0.75) (thickness 0.1))))
+  (fp_text user "SDE"   (at 1.27 -7.7) (layer "F.Fab") (effects (font (size 0.75 0.75) (thickness 0.1))))
+  (fp_text user "CLKIN" (at 3.81 -7.7) (layer "F.Fab") (effects (font (size 0.65 0.65) (thickness 0.1))))
+  (fp_text user "GND"   (at 6.35 -7.7) (layer "F.Fab") (effects (font (size 0.75 0.75) (thickness 0.1))))
+  (fp_text user "Adafruit MPU6050" (at 0 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+
+  (fp_circle (center -6.35 6.35) (end -5.15 6.35)
+    (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS"))
+
+  (pad "1" thru_hole circle (at -6.35 6.35) (size 1.778 1.778) (drill 1) (layers "*.Cu" "*.Mask"))
+  (pad "2" thru_hole circle (at -3.81 6.35) (size 1.778 1.778) (drill 1) (layers "*.Cu" "*.Mask"))
+  (pad "3" thru_hole circle (at -1.27 6.35) (size 1.778 1.778) (drill 1) (layers "*.Cu" "*.Mask"))
+  (pad "4" thru_hole circle (at 1.27 6.35) (size 1.778 1.778) (drill 1) (layers "*.Cu" "*.Mask"))
+  (pad "5" thru_hole circle (at 3.81 6.35) (size 1.778 1.778) (drill 1) (layers "*.Cu" "*.Mask"))
+  (pad "6" thru_hole circle (at 6.35 6.35) (size 1.778 1.778) (drill 1) (layers "*.Cu" "*.Mask"))
+
+  (pad "7"  thru_hole circle (at -6.35 -6.35) (size 1.6764 1.6764) (drill 1) (layers "*.Cu" "*.Mask"))
+  (pad "8"  thru_hole circle (at -3.81 -6.35) (size 1.6764 1.6764) (drill 1) (layers "*.Cu" "*.Mask"))
+  (pad "9"  thru_hole circle (at -1.27 -6.35) (size 1.6764 1.6764) (drill 1) (layers "*.Cu" "*.Mask"))
+  (pad "10" thru_hole circle (at 1.27 -6.35) (size 1.6764 1.6764) (drill 1) (layers "*.Cu" "*.Mask"))
+  (pad "11" thru_hole circle (at 3.81 -6.35) (size 1.6764 1.6764) (drill 1) (layers "*.Cu" "*.Mask"))
+  (pad "12" thru_hole circle (at 6.35 -6.35) (size 1.6764 1.6764) (drill 1) (layers "*.Cu" "*.Mask"))
+
+  (pad "" np_thru_hole circle (at -10.16 -6.35) (size 2.5 2.5) (drill 2.5) (layers "*.Cu" "*.Mask"))
+  (pad "" np_thru_hole circle (at  10.16 -6.35) (size 2.5 2.5) (drill 2.5) (layers "*.Cu" "*.Mask"))
+  (pad "" np_thru_hole circle (at -10.16  6.35) (size 2.5 2.5) (drill 2.5) (layers "*.Cu" "*.Mask"))
+  (pad "" np_thru_hole circle (at  10.16  6.35) (size 2.5 2.5) (drill 2.5) (layers "*.Cu" "*.Mask"))
+
+  (model "${KIPRJMOD}/libraries/3dmodels/Adafruit_MPU6050_Breakout.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

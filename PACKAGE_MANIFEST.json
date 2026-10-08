@@ -1,0 +1,571 @@
+{
+  "revision": "2026-10-04-motor-pinset-not-motor-order",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "Datasheets/Adafruit_LSM6DSO32_Breakout_Guide.pdf",
+      "bytes": 3411119,
+      "sha256": "945fbf1b096df16412c69922c9c06fe2c0f5a4272ced9017f3c339d98a1ef458"
+    },
+    {
+      "path": "Datasheets/Adafruit_MPU6050_Breakout_Guide.pdf",
+      "bytes": 2281914,
+      "sha256": "fadf08df7d6684db314dd626b811e436dcda696a572061053024d410a687b13b"
+    },
+    {
+      "path": "Datasheets/Bourns_SRP7028A_Inductor_Family.pdf",
+      "bytes": 184696,
+      "sha256": "3088c44b1a0d1c9d701482bb41cf3b073ee8a6a63e36c3417106ebb98560bf3b"
+    },
+    {
+      "path": "Datasheets/Dialight_SMD_LED_Selector_Guide.pdf",
+      "bytes": 13047137,
+      "sha256": "fea8f6f66689e0df17d9afdb48f3977ea621c10cebe9fddc914edf2c5c74a6d5"
+    },
+    {
+      "path": "Datasheets/Diodes_B340A_Schottky_Family.pdf",
+      "bytes": 495460,
+      "sha256": "453cbd34d996482abd07ac694c4e2d812d26b1d679d05ee325acc5c3eeb79917"
+    },
+    {
+      "path": "Datasheets/Diodes_DMP6023LE_MOSFET.pdf",
+      "bytes": 365044,
+      "sha256": "175824e1809b9ee239012a5704fd17ae29ec274f70cb3f451245b662f1964c59"
+    },
+    {
+      "path": "Datasheets/Littelfuse_SMBJ_TVS_Family.pdf",
+      "bytes": 1033285,
+      "sha256": "858f633be21fa2d0b3a50710e5c09c04996f98c739f8ffae0efd6fe1148de930"
+    },
+    {
+      "path": "Datasheets/Nordic_nRF24L01Plus_Product_Specification.pdf",
+      "bytes": 1134034,
+      "sha256": "4dc3ed775dc49cd365ec95c677d1d010a43c8539614eb4b312211096ca0ddf7e"
+    },
+    {
+      "path": "Datasheets/onsemi_BZX84C_Zener_Family.pdf",
+      "bytes": 476062,
+      "sha256": "f9818d9dfc032f2c7dde8ef5602af2bf620668f9bb5178566bde046ac91156d0"
+    },
+    {
+      "path": "Datasheets/PJRC_Teensy40_Pinout_Back.pdf",
+      "bytes": 394463,
+      "sha256": "d422f1ba2e4d569ce5080514bba6ad78b2f7d0faa986e62c72db0b9757f57c29"
+    },
+    {
+      "path": "Datasheets/PJRC_Teensy40_Pinout_Front.pdf",
+      "bytes": 338926,
+      "sha256": "d82c571a658942bdac3c7468aca8a6ac21fe8a4466c67b303d46a1b96ec1e1e9"
+    },
+    {
+      "path": "Datasheets/Solomon_SSD1306_IC_Datasheet.pdf",
+      "bytes": 1876686,
+      "sha256": "d55f875357de96d8c0e92153a389acc57e8bab4db7a0687f2e0bd3362f0036f6"
+    },
+    {
+      "path": "Datasheets/SOURCES.json",
+      "bytes": 8042,
+      "sha256": "73ee38a75e4e11b72f9da2e7a6f04e17d2106e622825c851f4bd1fbdde2bd884"
+    },
+    {
+      "path": "Datasheets/START_HERE.md",
+      "bytes": 6930,
+      "sha256": "40834dec0639afcb1898d2c2b76828beb0c383b3291a578799f47029d9ea410b"
+    },
+    {
+      "path": "Datasheets/TDK_MPU6000_MPU6050_Product_Specification.pdf",
+      "bytes": 1637351,
+      "sha256": "a4fdf69590b8cbab1cf0a5bcd359327b0ac022061fb233855aff2e191e7e3584"
+    },
+    {
+      "path": "Datasheets/TI_LP5912_LDO.pdf",
+      "bytes": 2731822,
+      "sha256": "de84246f830e2a081e8a83beb480003338f30e2aed518357cbf6757e0b858b13"
+    },
+    {
+      "path": "Datasheets/TI_TPS62933_Buck_Regulator.pdf",
+      "bytes": 4034940,
+      "sha256": "16ec2eac43c7374eb9e7edd7df7bdb24de6862f695e1582c68716ced4820e5f6"
+    },
+    {
+      "path": "Documentation/Lab8_Flightboard_PDB_Design_Student_Handout.docx",
+      "bytes": 1824487,
+      "sha256": "ff8f1af1623c284b719c1b410a8efe90c86ff35dfa06350f279a86f4df430f43"
+    },
+    {
+      "path": "Firmware_Reference/DREHMFLIGHT_LICENSE.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "Firmware_Reference/README.md",
+      "bytes": 4650,
+      "sha256": "9908d97fd2357cb49087f79fa26104b4fae2041458c3ecc55dcdb5e80e7a268b"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/AccelDiagnostics.h",
+      "bytes": 2045,
+      "sha256": "acdbc83f661cfb7c7c62b6c1d72e97d5861abeeae903c80c3faa92bc28ceba57"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/AccelGuard.h",
+      "bytes": 292,
+      "sha256": "da657746de61f6fc37930dec6ee11a305bcb0a316c1abb399675dab62cf48224"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/BenchReport.h",
+      "bytes": 3120,
+      "sha256": "ff803094aa61cc5c8c9e2b6684ce3932ea455cef67b766fab7af1f551ada59e9"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/DiagnosticIntegration.h",
+      "bytes": 18977,
+      "sha256": "cc15b07f26eba31b890be505949a0e95fc8b99d69350f14cfcf334653bc3fbf4"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/DiagnosticRecorder.h",
+      "bytes": 5880,
+      "sha256": "199ee49cbc3e766c388bc25dc032424fb7955c29219d80cabae9e4880ae12d4c"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/DREHMFLIGHT_LICENSE_AND_ATTRIBUTION.md",
+      "bytes": 1974,
+      "sha256": "231c1fc6eb34a663a4d35aa5cda6b41430b1c75a832d62807ff1c2e5ad58a61e"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/FailsafeDescent.h",
+      "bytes": 1567,
+      "sha256": "e8127369657ec46fe1c8ac48bc9dae58cf9c8429e68c53aa8b44488fb9367492"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/GyroNotch.h",
+      "bytes": 1436,
+      "sha256": "00707c978bbd490cde84a947e3d921016cf005e6d8fa3a0434fde5434f50730b"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/NonBlockingUsb.h",
+      "bytes": 3785,
+      "sha256": "5a619d5a43a21a18e410a0e799dda5e6043234f97506e96b2a2dbfd587382ee2"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/PidLink.h",
+      "bytes": 24332,
+      "sha256": "1d0a3200ae7cc11a219ea1e9ddc9b0b9189c498ba0d1006614eb47ea1829877f"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/ReceiverProtocolConfig.h",
+      "bytes": 1334,
+      "sha256": "98bbd5faef2f0993c9edb1cc729700d9024eb1fce224bf8e36e92e7d7005170a"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/SteadyCapture.h",
+      "bytes": 854,
+      "sha256": "10e2e5238e2829ca68f759b113a3f23ea0b683250992dae0c8d4cb773bffe57c"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/Teensy_FC_LSM6DSO32_Student_Reference.ino",
+      "bytes": 169774,
+      "sha256": "8373a4700bdb20d5dbbfa603aa0e1e8ce52bbded76f5ef674f23327d2d69f49e"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_MPU6050_Student_Reference/DREHMFLIGHT_LICENSE_AND_ATTRIBUTION.md",
+      "bytes": 2272,
+      "sha256": "f99b442b2277d11d4c4ad514a4b9326e26e6929cbca4fd806e70c5a1f632a114"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_MPU6050_Student_Reference/FailsafeDescent.h",
+      "bytes": 1565,
+      "sha256": "e9722329ba51344fccdd98c81698e75e7aa650b7564b2c466060fbeb9a56e1f8"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_MPU6050_Student_Reference/NonBlockingUsb.h",
+      "bytes": 3720,
+      "sha256": "8166cfd218dd191c0a531c988375fd7eeaddbfb3a18439eed0bc79934917b18b"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_MPU6050_Student_Reference/PidLink.h",
+      "bytes": 23990,
+      "sha256": "fca8094c08d87f2c75b3e174934bc9fe20c5c9843f8a1254a094f4d56a3f59e0"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_MPU6050_Student_Reference/ReceiverProtocolConfig.h",
+      "bytes": 1332,
+      "sha256": "39a4db590104a9a1472e74b31b8a445508a301676ded113845ad7f053fff9cd4"
+    },
+    {
+      "path": "Firmware_Reference/Teensy_FC_MPU6050_Student_Reference/Teensy_FC_MPU6050_Student_Reference.ino",
+      "bytes": 160414,
+      "sha256": "c916b00a56980be78455dc3343c915690d453b247768bce6e28915825aadad6a"
+    },
+    {
+      "path": "fp-lib-table",
+      "bytes": 2286,
+      "sha256": "21a7a59a184f64573c3f117874fcfa6823eee2f048a9a1530ffbd9c83efd250d"
+    },
+    {
+      "path": "Hardware_SPEC_CHECKLIST.md",
+      "bytes": 2714,
+      "sha256": "8fbc16824b298b4f85065427ee17397bab36da7f626ba9ae64a49441de1a95d0"
+    },
+    {
+      "path": "Interface_Reference/README.md",
+      "bytes": 3490,
+      "sha256": "57d2bbe8a222dd4d0070b68495e631ee12f24345c7f59694131205721d565748"
+    },
+    {
+      "path": "Lab8_Flightboard_Starter.kicad_pcb",
+      "bytes": 2038,
+      "sha256": "7829957e7338e332a94dc7033609c47f00a6f41b9c34c8ad4c085579b7a6338f"
+    },
+    {
+      "path": "Lab8_Flightboard_Starter.kicad_pro",
+      "bytes": 16614,
+      "sha256": "1e3edc6eea44afc7b5e3058032217d2f500eff42af2d86df1d3f29c5f39f8e7c"
+    },
+    {
+      "path": "Lab8_Flightboard_Starter.kicad_sch",
+      "bytes": 189052,
+      "sha256": "328ea0e23fc5d2c2fbc5ace6379f0783088776fe1fdf58892073629b2b258789"
+    },
+    {
+      "path": "libraries/3dmodels/5988110107F.STEP",
+      "bytes": 184390,
+      "sha256": "b91afdda57a2dd0e461ca4cd4424457b0435a569b584d47b7cc8544cdb91141f"
+    },
+    {
+      "path": "libraries/3dmodels/Adafruit_ISM330DHXC.STEP",
+      "bytes": 2471507,
+      "sha256": "40b27418b293e2515d8027f95580610e094b872dd8c64adc2b60209f1766fb71"
+    },
+    {
+      "path": "libraries/3dmodels/Adafruit_MPU6050_Breakout.step",
+      "bytes": 1119826,
+      "sha256": "89bb098cb61ad582f638a80f068f0fed327a32bf1bee0005ce19bada41442d39"
+    },
+    {
+      "path": "libraries/3dmodels/B340A-13-F.step",
+      "bytes": 132022,
+      "sha256": "8c9956a111b0e4cc638acd75d92159e400848dfc7c5a073600603dc0c936c3dd"
+    },
+    {
+      "path": "libraries/3dmodels/BZX84C12LT1G.step",
+      "bytes": 122587,
+      "sha256": "c112ddf4d7b7f76a075d0525e078ee26aee361a33bd234a3db16c5329e990c37"
+    },
+    {
+      "path": "libraries/3dmodels/KiCad_Standard/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "path": "libraries/3dmodels/KiCad_Standard/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+      "bytes": 43450,
+      "sha256": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a"
+    },
+    {
+      "path": "libraries/3dmodels/KiCad_Standard/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step",
+      "bytes": 110633,
+      "sha256": "b91b4ac5acf1a0d28a676703db972d17b8f11ef26a85b58d60786a69246b921b"
+    },
+    {
+      "path": "libraries/3dmodels/KiCad_Standard/LED_SMD.3dshapes/LED_0805_2012Metric.step",
+      "bytes": 78220,
+      "sha256": "0aa8b791804f5d72a2fc7d1bf231dd9959207d83df8ad801176fbc459f575b98"
+    },
+    {
+      "path": "libraries/3dmodels/KiCad_Standard/Package_SON.3dshapes/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step",
+      "bytes": 79956,
+      "sha256": "a159a524ab16d3406353a16f8c20b59f5679eea26e2d41174628288b5b9da702"
+    },
+    {
+      "path": "libraries/3dmodels/KiCad_Standard/Package_TO_SOT_SMD.3dshapes/SOT-583-8.step",
+      "bytes": 54647,
+      "sha256": "34d40dd5a4b023474c893715ba83608c48ba22a44d91723fb6791db21a0f63bb"
+    },
+    {
+      "path": "libraries/3dmodels/KiCad_Standard/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "bytes": 40592,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    {
+      "path": "libraries/3dmodels/MPU6050_HiLetgo_GY521.wrl",
+      "bytes": 1877,
+      "sha256": "9eaca1241dace0d0869b7257ec2460ae556ed7b6e0d902053c3a77213fc8c072"
+    },
+    {
+      "path": "libraries/3dmodels/nRF24L01_standard_module.wrl",
+      "bytes": 58225,
+      "sha256": "92d9593cbd36dd881737682307f1ba37ed2e7ece1d28e83935ae7ad3abdeac1c"
+    },
+    {
+      "path": "libraries/3dmodels/NRF24l01_with_antenna.step",
+      "bytes": 4594268,
+      "sha256": "8f57a2f23f8e3b99d309072ba00b2bb68f92b4184c90d6e4f8f64ac6a53829c1"
+    },
+    {
+      "path": "libraries/3dmodels/SMBJ17A.step",
+      "bytes": 97238,
+      "sha256": "c82a969c38ca44593e54d6c95c83cb3d5900d6dd8d54ec5f67187096f27f78ae"
+    },
+    {
+      "path": "libraries/3dmodels/SOT-223.step",
+      "bytes": 65065,
+      "sha256": "77ad6dbacc493cb619c728f26d2ddcf461eb0feb6b977b47d01d51e67016f654"
+    },
+    {
+      "path": "libraries/3dmodels/SRP 7028A series.stp",
+      "bytes": 3931306,
+      "sha256": "6376dcd2a9c6708f6d1e8776505a65ee8847a17822ce3b9cf14efd99b818e505"
+    },
+    {
+      "path": "libraries/3dmodels/Teensy40_with_headers.stp",
+      "bytes": 4858707,
+      "sha256": "916edac9ea9934980436e39ef738a55fe928fc4ce40dac181b3d6b5d30dd9fb5"
+    },
+    {
+      "path": "libraries/ASSET_SOURCES.json",
+      "bytes": 20613,
+      "sha256": "6c062b0b6b694a4fd317f2dd1bdfde98dad70c25db35ad6b8180ef224e1a147e"
+    },
+    {
+      "path": "libraries/FC_Diode.kicad_sym",
+      "bytes": 2319,
+      "sha256": "1f31fe62011b0f0a6fc6fbd574c6124db69d284f1d6b67a4ddb2347cd81a9dce"
+    },
+    {
+      "path": "libraries/FC_Diode_Footprints.pretty/DIOM5226X240N.kicad_mod",
+      "bytes": 3468,
+      "sha256": "4aa474af5b1bee570c1a53942ca0283ccca0209ebd26cc9b36d6fa9643e4ca53"
+    },
+    {
+      "path": "libraries/FC_Inductor.kicad_sym",
+      "bytes": 5083,
+      "sha256": "a416cfaf454efc2c0fbb2e200db543acc5f6fa07ed804eb8d2a6f9b9c30ac5e8"
+    },
+    {
+      "path": "libraries/FC_Inductor_Footprints.pretty/IND_SRP7028A-4R7M_BRN.kicad_mod",
+      "bytes": 5842,
+      "sha256": "31c7e6fd4ca1ff4351a985079070c0625ec034e331aae1aebcf13f59139743cc"
+    },
+    {
+      "path": "libraries/FC_LED.kicad_sym",
+      "bytes": 5557,
+      "sha256": "e3a5223009eef6521ddf52b3193cb61fd8d508d991c0a5ebec31cae3e926a5ce"
+    },
+    {
+      "path": "libraries/FC_LED_Footprints.pretty/LEDC2012X70N.kicad_mod",
+      "bytes": 3616,
+      "sha256": "ff8bfa1fb99899281ff261de66bf2b05bc3e7ee24daa4f37ac3c3575d7a7c160"
+    },
+    {
+      "path": "libraries/FC_Mechanical.pretty/MountingHole_3.3mm_no-courtyard.kicad_mod",
+      "bytes": 918,
+      "sha256": "a698f377188f2b248d115b72034367986bfb50df5e85f0aa1a51fed094a3679c"
+    },
+    {
+      "path": "libraries/FC_Mechanical.pretty/Pad_01.kicad_mod",
+      "bytes": 2528,
+      "sha256": "9ce2879d55639fab48b107342690f978afb1295b6baae46baeb5d9c874665e4e"
+    },
+    {
+      "path": "libraries/FC_Mechanical.pretty/Pad_x1_6mm.kicad_mod",
+      "bytes": 2588,
+      "sha256": "e6451b50413b8d0929fea2b7bdc700773fd83e40851914a05f4384272cd1d25b"
+    },
+    {
+      "path": "libraries/FC_Mechanical.pretty/Pad_x2.kicad_mod",
+      "bytes": 4375,
+      "sha256": "517d102c5ebeda37fc25790defddf3cc8b1e01121610a82be4de06555a02bf59"
+    },
+    {
+      "path": "libraries/FC_Mechanical.pretty/Pad_x2_copy.kicad_mod",
+      "bytes": 4370,
+      "sha256": "a96bd52e0dc3e517ef09eefb82e227e73ac583383d22e4b61ba878236eb8bfdc"
+    },
+    {
+      "path": "libraries/FC_Pads.kicad_sym",
+      "bytes": 1484,
+      "sha256": "74a2454d73d4d63dd8a17ad614c2d00f0bc47785eb2aabcb4324b538fe217502"
+    },
+    {
+      "path": "libraries/FC_Power.kicad_sym",
+      "bytes": 11745,
+      "sha256": "f06965c40e4dd79856e71b99456eb943be13b7b3bd15ad542c10351c895886da"
+    },
+    {
+      "path": "libraries/FC_Power_Footprints.pretty/DMP6023LE-13_Official.kicad_mod",
+      "bytes": 2337,
+      "sha256": "c89ca451610931466623ec0c4c5451fcde10df052ec698036a50ae8668f6e6a7"
+    },
+    {
+      "path": "libraries/FC_Power_Footprints.pretty/SMBJSeries_LTF.kicad_mod",
+      "bytes": 11476,
+      "sha256": "09c857748dbdf83a768cb06f9a185c71b886aff331501fc3ea5b2e548995803f"
+    },
+    {
+      "path": "libraries/FC_Power_Footprints.pretty/SOT95P240X111-3N.kicad_mod",
+      "bytes": 4235,
+      "sha256": "82a91e18b19cc4334b01ab5d91c5dd35dacefb0e25b3a46339f9d574c7f15557"
+    },
+    {
+      "path": "libraries/IMU_Modules.pretty/LSM6DSO32_Adafruit.kicad_mod",
+      "bytes": 6290,
+      "sha256": "8ce1dd32b2ec762b5a8c9090d07067f17ae037b249e279bb584d95a18b3804d3"
+    },
+    {
+      "path": "libraries/IMU_Modules.pretty/MPU6050_Adafruit.kicad_mod",
+      "bytes": 5915,
+      "sha256": "8940766223176322914e4558807a6d18335fcc261cdaf7f9516954f22582b19d"
+    },
+    {
+      "path": "libraries/IMU_Modules.pretty/MPU6050_HiLetgo_GY521.kicad_mod",
+      "bytes": 3210,
+      "sha256": "e3bd46fc96b5d85d0f653a37be6039acf224195b0ed97f3ea112dd1613fae7fd"
+    },
+    {
+      "path": "libraries/IMU_Symbols.kicad_sym",
+      "bytes": 8373,
+      "sha256": "721c9fc414b7f895dd5e5abc4420f5518d68bda462afe139ec338d25aa44559c"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Capacitor_SMD.pretty/C_0805_2012Metric_Pad1.18x1.45mm_HandSolder.kicad_mod",
+      "bytes": 2287,
+      "sha256": "231b8847dbb3dc03c46eef700023eff35992158a5399bf02c3f41fdcd96b8a22"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Capacitor_SMD.pretty/C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod",
+      "bytes": 2179,
+      "sha256": "0b890a3481e99568b6a9d3457154417742309cacbe82e09205e37b1fb0a10802"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Connector.kicad_sym",
+      "bytes": 2128,
+      "sha256": "5d65a88b36fa89ae7172f7854c2f39f1764d1435c3e312b0c1437a9187b4353e"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Connector_Generic.kicad_sym",
+      "bytes": 5528,
+      "sha256": "048c8fbd4266db53a042bb427f7d3f51b4fd0ccefb9f0e41cdefcac5266e09f5"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Connector_PinHeader_2.54mm.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+      "bytes": 3152,
+      "sha256": "3fd5745b3699004d6de0581a3082f516aea0a93e09f57d4fbfbfd15e5ca845e3"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Device.kicad_sym",
+      "bytes": 14734,
+      "sha256": "b0f167b55ccff6226efb5e97e73fbf68b3ff2541d9717cf39c03cae9ef3a493a"
+    },
+    {
+      "path": "libraries/KiCad_Standard/LED_SMD.pretty/LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder.kicad_mod",
+      "bytes": 2685,
+      "sha256": "b4c77feb56ce27bee16b50f13bc52474799c7484fb6c7ce973ae5ee24c764984"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Mechanical.kicad_sym",
+      "bytes": 1795,
+      "sha256": "323f775ba65ebcb1fba79ca96216f29dcae6db919b8d0c00e45c48494f47c01c"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Package_SON.pretty/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias.kicad_mod",
+      "bytes": 4925,
+      "sha256": "819d99607fc36b584c5f702d312ce53b69f74295970df54c114b1c9dea326311"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Package_TO_SOT_SMD.pretty/SOT-583-8.kicad_mod",
+      "bytes": 5466,
+      "sha256": "be1e17657268e2748620cc1b18f5bd72ed6ced56a6793798171dc7481014a8ee"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Regulator_Linear.kicad_sym",
+      "bytes": 3928,
+      "sha256": "dac2ca333aa7eda2605b2be5b955d690ba7c53e79edc11dbe08c4489484599eb"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Regulator_Switching.kicad_sym",
+      "bytes": 4172,
+      "sha256": "55816c2cf4eae4d43abea3f86343f5c6a5fad93f045b04963cf53077d85c0f5f"
+    },
+    {
+      "path": "libraries/KiCad_Standard/Resistor_SMD.pretty/R_0805_2012Metric_Pad1.20x1.40mm_HandSolder.kicad_mod",
+      "bytes": 2166,
+      "sha256": "a2a94bb0546ef666e8f2c4ef2614ecd1ebb266606ebe214873d8a8cf38c6d231"
+    },
+    {
+      "path": "libraries/KiCad_Standard/TestPoint.pretty/TestPoint_Pad_2.0x2.0mm.kicad_mod",
+      "bytes": 2910,
+      "sha256": "e6011f2e8f00c4f673e481ef5ae2931d10432e7f2ae8788c70a31d6f9897f280"
+    },
+    {
+      "path": "libraries/PIN_PAD_CHECKS.json",
+      "bytes": 2854,
+      "sha256": "824c77877aad42fce9f572eeec98a520bd2589f81fb9e5f993fdbe87ca2519d0"
+    },
+    {
+      "path": "libraries/README.md",
+      "bytes": 6476,
+      "sha256": "2929c2d6bbdd3a739f0b2fec0e989f8ffe56a05b818de096428f1f65c6fee19a"
+    },
+    {
+      "path": "libraries/RF_Local.kicad_sym",
+      "bytes": 5308,
+      "sha256": "5bae09642a3164148adca237eab97d9ac27d7df1c6622ecb887124831474bd68"
+    },
+    {
+      "path": "libraries/RF_Module_Local.pretty/nRF24L01_Breakout.kicad_mod",
+      "bytes": 7349,
+      "sha256": "125dbbe6fc2a7b46cc6aae7cb27306b8a246336488b89cd9b317ddc2ff5598b2"
+    },
+    {
+      "path": "libraries/SCHEMATIC_ASSET_CHECKS.json",
+      "bytes": 12395,
+      "sha256": "19bf3827b546ec66145999b377ebc4b028c1c02e3728e5bb87973488af440cf5"
+    },
+    {
+      "path": "libraries/teensy.kicad_sym",
+      "bytes": 272743,
+      "sha256": "af68c80cff33db41d035ed94c8d4db1ac38eee11556518803361182aaa3c9a7a"
+    },
+    {
+      "path": "libraries/teensy.pretty/Teensy40.kicad_mod",
+      "bytes": 7375,
+      "sha256": "921b8348b0525ea520b336dc743f56b46fff2930bb6001a9b70e78701548717c"
+    },
+    {
+      "path": "NATIVE_STARTER_SOURCES.json",
+      "bytes": 22971,
+      "sha256": "f28c0b6d4e4c2b55078bb0b3560d11afea244779200abc26ce78872e2c0fbd5d"
+    },
+    {
+      "path": "PACKAGE_STATUS.json",
+      "bytes": 787,
+      "sha256": "cdaa2919d09f98a56f232334f1c379857a4cab9822c77bcc6a51db8aa150434b"
+    },
+    {
+      "path": "Part1_Schematic_AI_Guide.md",
+      "bytes": 7035,
+      "sha256": "07e07a17dd11e37bf7430f9318c3f2983a57a6a73e5d8954899c6211e2d394f9"
+    },
+    {
+      "path": "Part2_PCB_AI_Guide.md",
+      "bytes": 7222,
+      "sha256": "d0b2ebcdfc255beb4a7e84fc74db1f434ce4d24d78855520b3caae127c5956a5"
+    },
+    {
+      "path": "Part3_Submission_AI_Guide.md",
+      "bytes": 3776,
+      "sha256": "051045e1f07f1d6a04088538f2c043e9ac4bdb1d36cf60771bacc9254c63b131"
+    },
+    {
+      "path": "README_START_HERE.md",
+      "bytes": 7657,
+      "sha256": "6866dd91691b3a602b02de03a94726e81ec942357af20e79c1ba8b6e80ec494e"
+    },
+    {
+      "path": "sym-lib-table",
+      "bytes": 2043,
+      "sha256": "e5d824b47c24114ac4c13067366136a6bc79b62b110448f29046911888234d61"
+    }
+  ]
+}

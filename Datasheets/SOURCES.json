@@ -1,0 +1,184 @@
+{
+  "collection_date": "2026-10-02",
+  "documents": [
+    {
+      "file": "PJRC_Teensy40_Pinout_Front.pdf",
+      "status": "included",
+      "reused_from": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Lab 7\\Lab7_RF_Controller_Student_Starter.zip",
+      "url": "https://www.pjrc.com/teensy/card10a_rev2_web.pdf",
+      "original_collection_date": "2026-09-27",
+      "copied_date": "2026-10-02",
+      "bytes": 338926,
+      "pages": 1,
+      "sha256": "d82c571a658942bdac3c7468aca8a6ac21fe8a4466c67b303d46a1b96ec1e1e9"
+    },
+    {
+      "file": "PJRC_Teensy40_Pinout_Back.pdf",
+      "status": "included",
+      "reused_from": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Lab 7\\Lab7_RF_Controller_Student_Starter.zip",
+      "url": "https://www.pjrc.com/teensy/card10b_rev2_web.pdf",
+      "original_collection_date": "2026-09-27",
+      "copied_date": "2026-10-02",
+      "bytes": 394463,
+      "pages": 1,
+      "sha256": "d422f1ba2e4d569ce5080514bba6ad78b2f7d0faa986e62c72db0b9757f57c29"
+    },
+    {
+      "file": "Nordic_nRF24L01Plus_Product_Specification.pdf",
+      "status": "included",
+      "reused_from": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Lab 7\\Lab7_RF_Controller_Student_Starter.zip",
+      "url": "https://www.mysensors.org/dl/57c1a2411730a6c715b6b1b0/design/nRF24L01P_PS_v1.0.pdf",
+      "original_collection_date": "2026-09-27",
+      "copied_date": "2026-10-02",
+      "bytes": 1134034,
+      "pages": 78,
+      "sha256": "4dc3ed775dc49cd365ec95c677d1d010a43c8539614eb4b312211096ca0ddf7e"
+    },
+    {
+      "file": "Solomon_SSD1306_IC_Datasheet.pdf",
+      "status": "included",
+      "reused_from": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Lab 7\\Lab7_RF_Controller_Student_Starter.zip",
+      "url": "https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf",
+      "original_collection_date": "2026-09-27",
+      "copied_date": "2026-10-02",
+      "bytes": 1876686,
+      "pages": 65,
+      "sha256": "d55f875357de96d8c0e92153a389acc57e8bab4db7a0687f2e0bd3362f0036f6"
+    },
+    {
+      "file": "TI_TPS62933_Buck_Regulator.pdf",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62933.pdf",
+      "collected_date": "2026-10-02",
+      "bytes": 4034940,
+      "pages": 51,
+      "sha256": "16ec2eac43c7374eb9e7edd7df7bdb24de6862f695e1582c68716ced4820e5f6",
+      "hosting_note": "Manufacturer-authored document; download host is recorded separately in URL",
+      "status": "included"
+    },
+    {
+      "file": "TI_LP5912_LDO.pdf",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/lp5912.pdf",
+      "collected_date": "2026-10-02",
+      "bytes": 2731822,
+      "pages": 38,
+      "sha256": "de84246f830e2a081e8a83beb480003338f30e2aed518357cbf6757e0b858b13",
+      "hosting_note": "Manufacturer-authored document; download host is recorded separately in URL",
+      "status": "included"
+    },
+    {
+      "file": "Bourns_SRP7028A_Inductor_Family.pdf",
+      "publisher": "Bourns",
+      "url": "https://www.bourns.com/docs/product-datasheets/srp7028a.pdf",
+      "collected_date": "2026-10-02",
+      "bytes": 184696,
+      "pages": 5,
+      "sha256": "3088c44b1a0d1c9d701482bb41cf3b073ee8a6a63e36c3417106ebb98560bf3b",
+      "hosting_note": "Manufacturer-authored document; download host is recorded separately in URL",
+      "status": "included"
+    },
+    {
+      "file": "Diodes_DMP6023LE_MOSFET.pdf",
+      "publisher": "Diodes Incorporated",
+      "url": "https://www.diodes.com/datasheet/download/DMP6023LE.pdf",
+      "collected_date": "2026-10-02",
+      "bytes": 365044,
+      "pages": 7,
+      "sha256": "175824e1809b9ee239012a5704fd17ae29ec274f70cb3f451245b662f1964c59",
+      "hosting_note": "Manufacturer-authored document; download host is recorded separately in URL",
+      "status": "included"
+    },
+    {
+      "file": "Littelfuse_SMBJ_TVS_Family.pdf",
+      "publisher": "Littelfuse",
+      "url": "https://docs.rs-online.com/72ea/0900766b814f6468.pdf",
+      "collected_date": "2026-10-02",
+      "resolved_url": "https://docs.rs-online.com/72ea/0900766b814f6468.pdf",
+      "bytes": 1033285,
+      "pages": 6,
+      "sha256": "858f633be21fa2d0b3a50710e5c09c04996f98c739f8ffae0efd6fe1148de930",
+      "hosting_note": "Manufacturer-authored document; download host is recorded separately in URL",
+      "status": "included"
+    },
+    {
+      "file": "onsemi_BZX84C_Zener_Family.pdf",
+      "publisher": "onsemi",
+      "url": "https://www.onsemi.cn/pdf/datasheet/bzx84c2v4lt1-d.pdf",
+      "collected_date": "2026-10-02",
+      "bytes": 476062,
+      "pages": 9,
+      "sha256": "f9818d9dfc032f2c7dde8ef5602af2bf620668f9bb5178566bde046ac91156d0",
+      "hosting_note": "Manufacturer-authored document; download host is recorded separately in URL",
+      "status": "included"
+    },
+    {
+      "file": "Diodes_B340A_Schottky_Family.pdf",
+      "publisher": "Diodes Incorporated",
+      "url": "https://www.diodes.com/datasheet/download/B340A.pdf",
+      "collected_date": "2026-10-02",
+      "bytes": 495460,
+      "pages": 7,
+      "sha256": "453cbd34d996482abd07ac694c4e2d812d26b1d679d05ee325acc5c3eeb79917",
+      "hosting_note": "Manufacturer-authored document; download host is recorded separately in URL",
+      "status": "included"
+    },
+    {
+      "file": "ST_LSM6DSO32_Datasheet.pdf",
+      "publisher": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/lsm6dso32.pdf",
+      "collected_date": "2026-10-02",
+      "status": "unavailable",
+      "errors": [
+        "https://www.st.com/resource/en/datasheet/lsm6dso32.pdf: The read operation timed out",
+        "2026-10-03 official URL retry: Remote end closed connection without response"
+      ],
+      "last_checked_date": "2026-10-03"
+    },
+    {
+      "file": "TDK_MPU6000_MPU6050_Product_Specification.pdf",
+      "publisher": "TDK InvenSense",
+      "url": "https://cdn.sparkfun.com/assets/a/4/6/8/e/MPU_6050.pdf",
+      "collected_date": "2026-10-02",
+      "resolved_url": "https://cdn.sparkfun.com/assets/a/4/6/8/e/MPU_6050.pdf",
+      "bytes": 1637351,
+      "pages": 52,
+      "sha256": "a4fdf69590b8cbab1cf0a5bcd359327b0ac022061fb233855aff2e191e7e3584",
+      "hosting_note": "Manufacturer-authored document; download host is recorded separately in URL",
+      "status": "included"
+    },
+    {
+      "file": "Adafruit_LSM6DSO32_Breakout_Guide.pdf",
+      "publisher": "Adafruit",
+      "url": "https://cdn-learn.adafruit.com/downloads/pdf/lsm6dsox-and-ism330dhc-6-dof-imu.pdf",
+      "collected_date": "2026-10-02",
+      "bytes": 3411119,
+      "pages": 26,
+      "sha256": "945fbf1b096df16412c69922c9c06fe2c0f5a4272ced9017f3c339d98a1ef458",
+      "hosting_note": "Manufacturer-authored document; download host is recorded separately in URL",
+      "status": "included"
+    },
+    {
+      "file": "Adafruit_MPU6050_Breakout_Guide.pdf",
+      "publisher": "Adafruit",
+      "url": "https://cdn-learn.adafruit.com/downloads/pdf/mpu6050-6-dof-accelerometer-and-gyro.pdf",
+      "collected_date": "2026-10-02",
+      "bytes": 2281914,
+      "pages": 16,
+      "sha256": "fadf08df7d6684db314dd626b811e436dcda696a572061053024d410a687b13b",
+      "hosting_note": "Manufacturer-authored document; download host is recorded separately in URL",
+      "status": "included"
+    },
+    {
+      "file": "Dialight_SMD_LED_Selector_Guide.pdf",
+      "publisher": "Dialight",
+      "url": "https://www.dialight.com/wp-content/uploads/2021/07/DIA_Selector_Guide_SMD_042321.pdf",
+      "collected_date": "2026-10-02",
+      "bytes": 13047137,
+      "pages": 30,
+      "sha256": "fea8f6f66689e0df17d9afdb48f3977ea621c10cebe9fddc914edf2c5c74a6d5",
+      "hosting_note": "Manufacturer-authored document; download host is recorded separately in URL",
+      "status": "included"
+    }
+  ]
+}

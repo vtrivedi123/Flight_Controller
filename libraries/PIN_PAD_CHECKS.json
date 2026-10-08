@@ -1,0 +1,100 @@
+{
+  "scope": "number presence only; not an electrical or dimensional certification",
+  "checks": [
+    {
+      "symbol": "FC_Diode:B340A-13-F",
+      "footprint": "FC_Diode_Footprints:DIOM5226X240N",
+      "symbol_pin_count": 2,
+      "numbered_pad_count": 2,
+      "symbol_pins_without_footprint_pads": []
+    },
+    {
+      "symbol": "FC_Inductor:SRP7028A-4R7M",
+      "footprint": "FC_Inductor_Footprints:IND_SRP7028A-4R7M_BRN",
+      "symbol_pin_count": 2,
+      "numbered_pad_count": 2,
+      "symbol_pins_without_footprint_pads": []
+    },
+    {
+      "symbol": "FC_LED:598-8110-107F",
+      "footprint": "FC_LED_Footprints:LEDC2012X70N",
+      "symbol_pin_count": 2,
+      "numbered_pad_count": 2,
+      "symbol_pins_without_footprint_pads": []
+    },
+    {
+      "symbol": "FC_Pads:1x",
+      "footprint": "FC_Mechanical:Pad_01",
+      "symbol_pin_count": 1,
+      "numbered_pad_count": 1,
+      "symbol_pins_without_footprint_pads": []
+    },
+    {
+      "symbol": "FC_Power:DMP6023LE-13",
+      "footprint": "FC_Power_Footprints:DMP6023LE-13_Official",
+      "symbol_pin_count": 3,
+      "numbered_pad_count": 3,
+      "symbol_pins_without_footprint_pads": []
+    },
+    {
+      "symbol": "FC_Power:SMBJ17A",
+      "footprint": "FC_Power_Footprints:SMBJSeries_LTF",
+      "symbol_pin_count": 2,
+      "numbered_pad_count": 2,
+      "symbol_pins_without_footprint_pads": []
+    },
+    {
+      "symbol": "FC_Power:BZX84C12LT1G",
+      "footprint": "FC_Power_Footprints:SOT95P240X111-3N",
+      "symbol_pin_count": 3,
+      "numbered_pad_count": 3,
+      "symbol_pins_without_footprint_pads": []
+    },
+    {
+      "symbol": "IMU_Symbols:MPU6050_HiLetgo_GY521",
+      "footprint": "IMU_Modules:MPU6050_HiLetgo_GY521",
+      "symbol_pin_count": 8,
+      "numbered_pad_count": 8,
+      "symbol_pins_without_footprint_pads": []
+    },
+    {
+      "symbol": "IMU_Symbols:MPU6050_Adafruit",
+      "footprint": "IMU_Modules:MPU6050_Adafruit",
+      "symbol_pin_count": 12,
+      "numbered_pad_count": 12,
+      "symbol_pins_without_footprint_pads": []
+    },
+    {
+      "symbol": "IMU_Symbols:LSM6DSO32_Adafruit",
+      "footprint": "IMU_Modules:LSM6DSO32_Adafruit",
+      "symbol_pin_count": 14,
+      "numbered_pad_count": 14,
+      "symbol_pins_without_footprint_pads": []
+    },
+    {
+      "symbol": "RF_Local:NRF24L01_Breakout",
+      "footprint": "RF_Module_Local:nRF24L01_Breakout",
+      "symbol_pin_count": 8,
+      "numbered_pad_count": 8,
+      "symbol_pins_without_footprint_pads": []
+    },
+    {
+      "symbol": "teensy:Teensy4.0",
+      "footprint": "teensy:Teensy40",
+      "symbol_pin_count": 54,
+      "numbered_pad_count": 44,
+      "symbol_pins_without_footprint_pads": [
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54"
+      ]
+    }
+  ]
+}

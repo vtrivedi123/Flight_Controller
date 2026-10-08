@@ -1,0 +1,19 @@
+{
+  "revision": "2026-10-04",
+  "status": "student_starter",
+  "native_project": "Lab8_Flightboard_Starter.kicad_pro",
+  "included_pdf_count": 15,
+  "unavailable_pdf_files": [
+    "ST_LSM6DSO32_Datasheet.pdf"
+  ],
+  "not_included": [
+    "instructor solved wiring/nonmotor GPIO/passive values",
+    "routed reference PCB",
+    "compiled binaries or ready-to-flash firmware",
+    "manufacturing outputs"
+  ],
+  "engineering_status": "educational resources; not fabrication, power-up, or flight approval",
+  "schematic_state": "Unconnected components; all R/C/L TBD; choose exactly one IMU",
+  "pcb_state": "Empty PCB",
+  "firmware_state": "Two pin-redacted references with deliberate compile guards; required motor GPIO set D4/D8/D22/D23, example channel order only"
+}

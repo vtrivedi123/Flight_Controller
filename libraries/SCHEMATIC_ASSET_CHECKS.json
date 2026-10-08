@@ -1,0 +1,412 @@
+{
+  "scope": "symbol cache, pin-number presence and path checks; not electrical certification",
+  "checks": [
+    {
+      "reference": "C4",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R17",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "J8",
+      "symbol": "Connector_Generic:Conn_01x01",
+      "footprint": "FC_Mechanical:Pad_x1_6mm",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R6",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "U9",
+      "symbol": "IMU_Symbols:LSM6DSO32_Adafruit",
+      "footprint": "IMU_Modules:LSM6DSO32_Adafruit",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R15",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C5",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "H2",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "FC_Mechanical:MountingHole_3.3mm_no-courtyard",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R5",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "J4",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R3",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "H4",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "FC_Mechanical:MountingHole_3.3mm_no-courtyard",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R12",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "L1",
+      "symbol": "Device:L",
+      "footprint": "FC_Inductor_Footprints:IND_SRP7028A-4R7M_BRN",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R4",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "J6",
+      "symbol": "Connector_Generic:Conn_01x01",
+      "footprint": "FC_Mechanical:Pad_x1_6mm",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C14",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R10",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "J12",
+      "symbol": "Connector_Generic:Conn_01x01",
+      "footprint": "FC_Mechanical:Pad_x1_6mm",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R13",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R2",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C12",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C10",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C3",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C25",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "J9",
+      "symbol": "Connector_Generic:Conn_01x01",
+      "footprint": "FC_Mechanical:Pad_x1_6mm",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R1",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R16",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "U1",
+      "symbol": "teensy:Teensy4.0",
+      "footprint": "teensy:Teensy40",
+      "unimplemented_pin_numbers": [
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54"
+      ]
+    },
+    {
+      "reference": "J3",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "D3",
+      "symbol": "Device:LED",
+      "footprint": "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C9",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "D1",
+      "symbol": "FC_Power:SMBJ17A",
+      "footprint": "FC_Power_Footprints:SMBJSeries_LTF",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "H3",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "FC_Mechanical:MountingHole_3.3mm_no-courtyard",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C24",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C20",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "H1",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "FC_Mechanical:MountingHole_3.3mm_no-courtyard",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "J10",
+      "symbol": "Connector_Generic:Conn_01x01",
+      "footprint": "FC_Mechanical:Pad_x1_6mm",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R7",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "J1",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "Q1",
+      "symbol": "FC_Power:DMP6023LE-13",
+      "footprint": "FC_Power_Footprints:DMP6023LE-13_Official",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "U6",
+      "symbol": "RF_Local:NRF24L01_Breakout",
+      "footprint": "RF_Module_Local:nRF24L01_Breakout",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "J7",
+      "symbol": "Connector_Generic:Conn_01x01",
+      "footprint": "FC_Mechanical:Pad_x1_6mm",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "TP2",
+      "symbol": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_2.0x2.0mm",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R9",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C6",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "U4",
+      "symbol": "Regulator_Linear:LP5912-3.3DRV",
+      "footprint": "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R8",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C13",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "BT1",
+      "symbol": "Device:Battery_Cell",
+      "footprint": "FC_Mechanical:Pad_x2",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C21",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C11",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "D4",
+      "symbol": "FC_Power:BZX84C12LT1G",
+      "footprint": "FC_Power_Footprints:SOT95P240X111-3N",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "U8",
+      "symbol": "IMU_Symbols:MPU6050_Adafruit",
+      "footprint": "IMU_Modules:MPU6050_Adafruit",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "D2",
+      "symbol": "FC_Diode:B340A-13-F",
+      "footprint": "FC_Diode_Footprints:DIOM5226X240N",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "U2",
+      "symbol": "Regulator_Switching:TPS62933",
+      "footprint": "Package_TO_SOT_SMD:SOT-583-8",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "J5",
+      "symbol": "Connector_Generic:Conn_01x01",
+      "footprint": "FC_Mechanical:Pad_x1_6mm",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "U5",
+      "symbol": "Regulator_Linear:LP5912-3.3DRV",
+      "footprint": "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C15",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "D6",
+      "symbol": "Device:LED",
+      "footprint": "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "J2",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "R11",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C1",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "J11",
+      "symbol": "Connector_Generic:Conn_01x01",
+      "footprint": "FC_Mechanical:Pad_x1_6mm",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "C2",
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+      "unimplemented_pin_numbers": []
+    },
+    {
+      "reference": "U10",
+      "symbol": "IMU_Symbols:MPU6050_HiLetgo_GY521",
+      "footprint": "IMU_Modules:MPU6050_HiLetgo_GY521",
+      "unimplemented_pin_numbers": []
+    }
+  ]
+}

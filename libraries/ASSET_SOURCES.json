@@ -1,0 +1,334 @@
+{
+  "scope": "copied libraries only; original designs unchanged",
+  "assets": [
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Lab 7\\Lab7_RF_Controller_Student_Starter.zip!Lab7_RF_Controller_Starter/libraries/3dmodels/Teensy40_with_headers.stp",
+      "output": "libraries/3dmodels/Teensy40_with_headers.stp",
+      "source_sha256": "916edac9ea9934980436e39ef738a55fe928fc4ce40dac181b3d6b5d30dd9fb5",
+      "output_sha256": "916edac9ea9934980436e39ef738a55fe928fc4ce40dac181b3d6b5d30dd9fb5",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Lab 7\\Lab7_RF_Controller_Student_Starter.zip!Lab7_RF_Controller_Starter/libraries/3dmodels/nRF24L01_standard_module.wrl",
+      "output": "libraries/3dmodels/nRF24L01_standard_module.wrl",
+      "source_sha256": "92d9593cbd36dd881737682307f1ba37ed2e7ece1d28e83935ae7ad3abdeac1c",
+      "output_sha256": "92d9593cbd36dd881737682307f1ba37ed2e7ece1d28e83935ae7ad3abdeac1c",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Lab 7\\Lab7_RF_Controller_Student_Starter.zip!Lab7_RF_Controller_Starter/libraries/teensy.kicad_sym",
+      "output": "libraries/teensy.kicad_sym",
+      "source_sha256": "512836f9fbb73405d4d04abc472746718447d32f8da24ef103b4ea81017fa28f",
+      "output_sha256": "af68c80cff33db41d035ed94c8d4db1ac38eee11556518803361182aaa3c9a7a",
+      "changes": [
+        "Set Teensy4.0 Footprint metadata only; retained all source symbol pins/graphics"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Lab 7\\Lab7_RF_Controller_Student_Starter.zip!Lab7_RF_Controller_Starter/libraries/RF_Local.kicad_sym",
+      "output": "libraries/RF_Local.kicad_sym",
+      "source_sha256": "5bae09642a3164148adca237eab97d9ac27d7df1c6622ecb887124831474bd68",
+      "output_sha256": "5bae09642a3164148adca237eab97d9ac27d7df1c6622ecb887124831474bd68",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Lab 7\\Lab7_RF_Controller_Student_Starter.zip!Lab7_RF_Controller_Starter/libraries/teensy.pretty/Teensy40.kicad_mod",
+      "output": "libraries/teensy.pretty/Teensy40.kicad_mod",
+      "source_sha256": "921b8348b0525ea520b336dc743f56b46fff2930bb6001a9b70e78701548717c",
+      "output_sha256": "921b8348b0525ea520b336dc743f56b46fff2930bb6001a9b70e78701548717c",
+      "changes": [
+        "Normalized model path only; retained Lab 7 standard module geometry/transforms"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Lab 7\\Lab7_RF_Controller_Student_Starter.zip!Lab7_RF_Controller_Starter/libraries/RF_Module_Local.pretty/nRF24L01_Breakout.kicad_mod",
+      "output": "libraries/RF_Module_Local.pretty/nRF24L01_Breakout.kicad_mod",
+      "source_sha256": "ac60c16e4a348c4d499e35a1ae40193b498986bf7feec9b45f6b934cc8833e6e",
+      "output_sha256": "125dbbe6fc2a7b46cc6aae7cb27306b8a246336488b89cd9b317ddc2ff5598b2",
+      "changes": [
+        "Normalized model path only; retained Lab 7 standard module geometry/transforms",
+        "2026-10-03 user-requested change: external-antenna STEP and exact FC reference transform; header pads, body graphics and symbol retained"
+      ],
+      "model_assignment_source": {
+        "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\Teensy_FC.kicad_pcb",
+        "source_sha256": "da88e1e893d5ed0d1ed190809cdeba85145be81fe65c958ac677a47eb1b0ece7",
+        "footprint_reference": "U6",
+        "model": "${KIPRJMOD}/libraries/3dmodels/NRF24l01_with_antenna.step",
+        "offset_mm": [
+          17.78,
+          -3.81,
+          0
+        ],
+        "rotation_deg": [
+          270,
+          0,
+          90
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\IMU_Symbols.kicad_sym",
+      "output": "libraries/IMU_Symbols.kicad_sym",
+      "source_sha256": "de87867275bc1f0494a6e0f2468ebcb7b640e06716186924c78dda547b487b05",
+      "output_sha256": "721c9fc414b7f895dd5e5abc4420f5518d68bda462afe139ec338d25aa44559c",
+      "changes": [
+        "Removed duplicated interior module-title text to avoid pin-label collisions; outer Value identifies module; body/pin geometry unchanged"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\IMU_3D\\Adafruit_ISM330DHXC.STEP",
+      "output": "libraries/3dmodels/Adafruit_ISM330DHXC.STEP",
+      "source_sha256": "40b27418b293e2515d8027f95580610e094b872dd8c64adc2b60209f1766fb71",
+      "output_sha256": "40b27418b293e2515d8027f95580610e094b872dd8c64adc2b60209f1766fb71",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\IMU_Modules.pretty\\LSM6DSO32_Adafruit.kicad_mod",
+      "output": "libraries/IMU_Modules.pretty/LSM6DSO32_Adafruit.kicad_mod",
+      "source_sha256": "c02b5e44e55ab00e69cc36996488b96e84f767a0d3888e839293f5d445cb214a",
+      "output_sha256": "8ce1dd32b2ec762b5a8c9090d07067f17ae037b249e279bb584d95a18b3804d3",
+      "changes": [
+        "Removed premature footprint closing parenthesis before appended model; geometry/transforms unchanged",
+        "Replaced model path with package-local reference; retained offset/rotation/scale"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\IMU_3D\\Adafruit_MPU6050_Breakout.step",
+      "output": "libraries/3dmodels/Adafruit_MPU6050_Breakout.step",
+      "source_sha256": "89bb098cb61ad582f638a80f068f0fed327a32bf1bee0005ce19bada41442d39",
+      "output_sha256": "89bb098cb61ad582f638a80f068f0fed327a32bf1bee0005ce19bada41442d39",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\IMU_Modules.pretty\\MPU6050_Adafruit.kicad_mod",
+      "output": "libraries/IMU_Modules.pretty/MPU6050_Adafruit.kicad_mod",
+      "source_sha256": "a41f6976495f3bdabe731a1101958ad52b0c18513f1089ba5bc09310e97f58dc",
+      "output_sha256": "8940766223176322914e4558807a6d18335fcc261cdaf7f9516954f22582b19d",
+      "changes": [
+        "Replaced model path with package-local reference; retained offset/rotation/scale"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\IMU_3D\\MPU6050_HiLetgo_GY521.wrl",
+      "output": "libraries/3dmodels/MPU6050_HiLetgo_GY521.wrl",
+      "source_sha256": "9eaca1241dace0d0869b7257ec2460ae556ed7b6e0d902053c3a77213fc8c072",
+      "output_sha256": "9eaca1241dace0d0869b7257ec2460ae556ed7b6e0d902053c3a77213fc8c072",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\IMU_Modules.pretty\\MPU6050_HiLetgo_GY521.kicad_mod",
+      "output": "libraries/IMU_Modules.pretty/MPU6050_HiLetgo_GY521.kicad_mod",
+      "source_sha256": "9c94e0761528ab5c347b448c53833d677d4412c8644434197a132e42b12e2844",
+      "output_sha256": "e3bd46fc96b5d85d0f653a37be6039acf224195b0ed97f3ea112dd1613fae7fd",
+      "changes": [
+        "Replaced model path with package-local reference; retained offset/rotation/scale"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Power\\DMP6023LE_13.kicad_sym",
+      "output": "libraries/FC_Power.kicad_sym",
+      "source_sha256": "492be3e293f31157d77100d9b2c1b57fccfae5300138fea087d8ab0aa0b21794",
+      "changes": [
+        "Merged complete source symbol into FC_Power; normalized Footprint metadata only"
+      ],
+      "output_sha256": "f06965c40e4dd79856e71b99456eb943be13b7b3bd15ad542c10351c895886da"
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Power\\SMBJ17A.kicad_sym",
+      "output": "libraries/FC_Power.kicad_sym",
+      "source_sha256": "db497763b5b679a38dbff3683fb04fd07afa3a36e8d5772a5b36043a424bcaf3",
+      "changes": [
+        "Merged complete source symbol into FC_Power; normalized Footprint metadata only"
+      ],
+      "output_sha256": "f06965c40e4dd79856e71b99456eb943be13b7b3bd15ad542c10351c895886da"
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\BZX84C12LT1G\\BZX84C12LT1G.kicad_sym",
+      "output": "libraries/FC_Power.kicad_sym",
+      "source_sha256": "3db97b8207f9bca5a8f20cecc2d0d2547bc9a3642b19128a64ba4e7ff677729c",
+      "changes": [
+        "Merged complete source symbol into FC_Power; normalized Footprint metadata only"
+      ],
+      "output_sha256": "f06965c40e4dd79856e71b99456eb943be13b7b3bd15ad542c10351c895886da"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Package_TO_SOT_SMD.3dshapes\\SOT-223.step",
+      "output": "libraries/3dmodels/SOT-223.step",
+      "source_sha256": "77ad6dbacc493cb619c728f26d2ddcf461eb0feb6b977b47d01d51e67016f654",
+      "output_sha256": "77ad6dbacc493cb619c728f26d2ddcf461eb0feb6b977b47d01d51e67016f654",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\Flightcontroller_VFinal.pretty\\DMP6023LE-13_Official.kicad_mod",
+      "output": "libraries/FC_Power_Footprints.pretty/DMP6023LE-13_Official.kicad_mod",
+      "source_sha256": "95f7283959e4220a35f217ed31b91ce14b5f1351a5fb6bd27f0472dd44394cc6",
+      "output_sha256": "c89ca451610931466623ec0c4c5451fcde10df052ec698036a50ae8668f6e6a7",
+      "changes": [
+        "Replaced model path with package-local reference; retained offset/rotation/scale"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\SMBJ17A.step",
+      "output": "libraries/3dmodels/SMBJ17A.step",
+      "source_sha256": "c82a969c38ca44593e54d6c95c83cb3d5900d6dd8d54ec5f67187096f27f78ae",
+      "output_sha256": "c82a969c38ca44593e54d6c95c83cb3d5900d6dd8d54ec5f67187096f27f78ae",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Power\\foot\\SMBJSeries_LTF.kicad_mod",
+      "output": "libraries/FC_Power_Footprints.pretty/SMBJSeries_LTF.kicad_mod",
+      "source_sha256": "3cc67b86490d948a9285b9fddf79ebfddeed892aff127ca9c70212fabd677a74",
+      "output_sha256": "09c857748dbdf83a768cb06f9a185c71b886aff331501fc3ea5b2e548995803f",
+      "changes": [
+        "Replaced model path with package-local reference; retained offset/rotation/scale"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\BZX84C12LT1G\\BZX84C12LT1G.step",
+      "output": "libraries/3dmodels/BZX84C12LT1G.step",
+      "source_sha256": "c112ddf4d7b7f76a075d0525e078ee26aee361a33bd234a3db16c5329e990c37",
+      "output_sha256": "c112ddf4d7b7f76a075d0525e078ee26aee361a33bd234a3db16c5329e990c37",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\BZX84C12LT1G\\SOT95P240X111-3N.kicad_mod",
+      "output": "libraries/FC_Power_Footprints.pretty/SOT95P240X111-3N.kicad_mod",
+      "source_sha256": "fd3db75556d71a3c487a94f592dbf26417184ea541d6555c64fd96f62b463c2a",
+      "output_sha256": "82a91e18b19cc4334b01ab5d91c5dd35dacefb0e25b3a46339f9d574c7f15557",
+      "changes": [
+        "Replaced model path with package-local reference; retained offset/rotation/scale"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Diode_Schottky\\B340A_13_F\\B340A-13-F.kicad_sym",
+      "output": "libraries/FC_Diode.kicad_sym",
+      "source_sha256": "f6ba395eff01c19306aa2bc69cfcb6205260bfcffd77895e531361d4df4a74f8",
+      "output_sha256": "1f31fe62011b0f0a6fc6fbd574c6124db69d284f1d6b67a4ddb2347cd81a9dce",
+      "changes": [
+        "Normalized Footprint metadata to prepared project-local library nickname"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Diode_Schottky\\B340A_13_F\\B340A-13-F.step",
+      "output": "libraries/3dmodels/B340A-13-F.step",
+      "source_sha256": "8c9956a111b0e4cc638acd75d92159e400848dfc7c5a073600603dc0c936c3dd",
+      "output_sha256": "8c9956a111b0e4cc638acd75d92159e400848dfc7c5a073600603dc0c936c3dd",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Diode_Schottky\\B340A_13_F\\DIOM5226X240N.kicad_mod",
+      "output": "libraries/FC_Diode_Footprints.pretty/DIOM5226X240N.kicad_mod",
+      "source_sha256": "0e32ff3dbbebf53ae029784ada514534b2495d61d5129db0a7585bc84f9cff05",
+      "output_sha256": "4aa474af5b1bee570c1a53942ca0283ccca0209ebd26cc9b36d6fa9643e4ca53",
+      "changes": [
+        "Replaced model path with package-local reference; retained offset/rotation/scale"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Inductor\\ul_SRP7028A-4R7M\\KiCADv6\\2026-08-20_00-50-06.kicad_sym",
+      "output": "libraries/FC_Inductor.kicad_sym",
+      "source_sha256": "87c889409cd759a83cb3ed66582c86539cc2456e1d4bced2c8b19aca04ca4162",
+      "output_sha256": "a416cfaf454efc2c0fbb2e200db543acc5f6fa07ed804eb8d2a6f9b9c30ac5e8",
+      "changes": [
+        "Normalized Footprint metadata to prepared project-local library nickname"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Inductor\\SRP 7028A series.stp",
+      "output": "libraries/3dmodels/SRP 7028A series.stp",
+      "source_sha256": "6376dcd2a9c6708f6d1e8776505a65ee8847a17822ce3b9cf14efd99b818e505",
+      "output_sha256": "6376dcd2a9c6708f6d1e8776505a65ee8847a17822ce3b9cf14efd99b818e505",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Inductor\\ul_SRP7028A-4R7M\\KiCADv6\\footprints.pretty\\IND_SRP7028A-4R7M_BRN.kicad_mod",
+      "output": "libraries/FC_Inductor_Footprints.pretty/IND_SRP7028A-4R7M_BRN.kicad_mod",
+      "source_sha256": "bdf484f2ad1663c2ff61d695a3a418f35b6f2da3cba81816f6aac3dacbcf4d1e",
+      "output_sha256": "31c7e6fd4ca1ff4351a985079070c0625ec034e331aae1aebcf13f59139743cc",
+      "changes": [
+        "Replaced model path with package-local reference; retained offset/rotation/scale"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\LED\\598-8110-107F\\598-8110-107F.kicad_sym",
+      "output": "libraries/FC_LED.kicad_sym",
+      "source_sha256": "4949470b80da43a3ce8bf7f1d7d5f68aeed20acf259de7a10bf2087d31825dfd",
+      "output_sha256": "e3a5223009eef6521ddf52b3193cb61fd8d508d991c0a5ebec31cae3e926a5ce",
+      "changes": [
+        "Normalized Footprint metadata to prepared project-local library nickname"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\LED\\5988110107F.STEP",
+      "output": "libraries/3dmodels/5988110107F.STEP",
+      "source_sha256": "b91afdda57a2dd0e461ca4cd4424457b0435a569b584d47b7cc8544cdb91141f",
+      "output_sha256": "b91afdda57a2dd0e461ca4cd4424457b0435a569b584d47b7cc8544cdb91141f",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\LED\\598-8110-107F\\LEDC2012X70N.kicad_mod",
+      "output": "libraries/FC_LED_Footprints.pretty/LEDC2012X70N.kicad_mod",
+      "source_sha256": "f28725f7179e06beeaf2940ba6e3c6e163fb462d4c42e6b24819f80ad5f3918b",
+      "output_sha256": "ff8bfa1fb99899281ff261de66bf2b05bc3e7ee24daa4f37ac3c3575d7a7c160",
+      "changes": [
+        "Replaced model path with package-local reference; retained offset/rotation/scale"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Essentials\\Pads.kicad_sym",
+      "output": "libraries/FC_Pads.kicad_sym",
+      "source_sha256": "e55d09fef8cde1aaa044c527795def763a35b5306365dfdb4194b0f90d24fecc",
+      "output_sha256": "74a2454d73d4d63dd8a17ad614c2d00f0bc47785eb2aabcb4324b538fe217502",
+      "changes": [
+        "Normalized Footprint metadata to prepared project-local library nickname"
+      ]
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Essentials\\Pad_01.kicad_mod",
+      "output": "libraries/FC_Mechanical.pretty/Pad_01.kicad_mod",
+      "source_sha256": "9ce2879d55639fab48b107342690f978afb1295b6baae46baeb5d9c874665e4e",
+      "output_sha256": "9ce2879d55639fab48b107342690f978afb1295b6baae46baeb5d9c874665e4e",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Essentials\\Pad_x1_6mm.kicad_mod",
+      "output": "libraries/FC_Mechanical.pretty/Pad_x1_6mm.kicad_mod",
+      "source_sha256": "e6451b50413b8d0929fea2b7bdc700773fd83e40851914a05f4384272cd1d25b",
+      "output_sha256": "e6451b50413b8d0929fea2b7bdc700773fd83e40851914a05f4384272cd1d25b",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Essentials\\Pad_x2.kicad_mod",
+      "output": "libraries/FC_Mechanical.pretty/Pad_x2.kicad_mod",
+      "source_sha256": "517d102c5ebeda37fc25790defddf3cc8b1e01121610a82be4de06555a02bf59",
+      "output_sha256": "517d102c5ebeda37fc25790defddf3cc8b1e01121610a82be4de06555a02bf59",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Essentials\\Pad_x2_copy.kicad_mod",
+      "output": "libraries/FC_Mechanical.pretty/Pad_x2_copy.kicad_mod",
+      "source_sha256": "a96bd52e0dc3e517ef09eefb82e227e73ac583383d22e4b61ba878236eb8bfdc",
+      "output_sha256": "a96bd52e0dc3e517ef09eefb82e227e73ac583383d22e4b61ba878236eb8bfdc",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Library\\Essentials\\MountingHole_3.3mm_no-courtyard.kicad_mod",
+      "output": "libraries/FC_Mechanical.pretty/MountingHole_3.3mm_no-courtyard.kicad_mod",
+      "source_sha256": "a698f377188f2b248d115b72034367986bfb50df5e85f0aa1a51fed094a3679c",
+      "output_sha256": "a698f377188f2b248d115b72034367986bfb50df5e85f0aa1a51fed094a3679c",
+      "changes": []
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\libraries\\3dmodels\\NRF24l01_with_antenna.step",
+      "output": "libraries/3dmodels/NRF24l01_with_antenna.step",
+      "source_sha256": "8f57a2f23f8e3b99d309072ba00b2bb68f92b4184c90d6e4f8f64ac6a53829c1",
+      "output_sha256": "8f57a2f23f8e3b99d309072ba00b2bb68f92b4184c90d6e4f8f64ac6a53829c1",
+      "changes": []
+    }
+  ]
+}

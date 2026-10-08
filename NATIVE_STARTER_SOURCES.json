@@ -1,0 +1,374 @@
+{
+  "revision": "2026-10-03",
+  "schematic": {
+    "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\Teensy_FC.kicad_sch",
+    "source_sha256": "0961b8c127c2a5be250cd61be8bb51573b221222e154fc49e25d0f26d8492edd",
+    "removed": {
+      "no_connect": 3,
+      "wire": 2,
+      "power_symbol": 1
+    },
+    "changes": [
+      "No connections or power/no-connect decisions supplied",
+      "All R/C/L values TBD",
+      "Custom library IDs and footprints use package nicknames",
+      "Cached symbols refreshed from supplied local libraries",
+      "Added HiLetgo MPU6050 alternative; exactly one IMU must remain in completed project",
+      "Status LED instances are generic BLUE/ORANGE selections, not falsely identified red supplier parts",
+      "Aligned four off-grid resistor origins to the 1.27 mm connection grid; adjusted generic LED field positions",
+      "Removed misleading numeric switching/ripple and divider-tolerance annotations"
+    ]
+  },
+  "pcb": {
+    "source_archive": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Lab 7\\Lab7_RF_Controller_Student_Starter.zip",
+    "source_sha256": "461b2009aa325fe589330ae2f54622b712724a8217e7230210186f06847613ff",
+    "source_member": "Lab7_RF_Controller_Starter/RF Controller V-Final.kicad_pcb",
+    "state": "empty; no outline, footprints, tracks, vias, zones or nets"
+  },
+  "project": {
+    "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\Teensy_FC.kicad_pro",
+    "source_sha256": "ea5983a8bf859b05adcff09812371ae4267f7f59490c38a75b647a0cc8837d59",
+    "changes": [
+      "Renamed project/sheet paths",
+      "Cleared exclusions and net assignment/color/last-path metadata",
+      "Existing generic project rules are starting settings, not fabrication approval"
+    ]
+  },
+  "added_standard_assets": [
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0805_2012Metric.step",
+      "source_sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "output": "libraries/3dmodels/KiCad_Standard/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "changes": [],
+      "output_sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.step",
+      "source_sha256": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a",
+      "output": "libraries/3dmodels/KiCad_Standard/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+      "changes": [],
+      "output_sha256": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Connector_PinHeader_2.54mm.3dshapes\\PinHeader_1x03_P2.54mm_Vertical.step",
+      "source_sha256": "b91b4ac5acf1a0d28a676703db972d17b8f11ef26a85b58d60786a69246b921b",
+      "output": "libraries/3dmodels/KiCad_Standard/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step",
+      "changes": [],
+      "output_sha256": "b91b4ac5acf1a0d28a676703db972d17b8f11ef26a85b58d60786a69246b921b"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\LED_SMD.3dshapes\\LED_0805_2012Metric.step",
+      "source_sha256": "0aa8b791804f5d72a2fc7d1bf231dd9959207d83df8ad801176fbc459f575b98",
+      "output": "libraries/3dmodels/KiCad_Standard/LED_SMD.3dshapes/LED_0805_2012Metric.step",
+      "changes": [],
+      "output_sha256": "0aa8b791804f5d72a2fc7d1bf231dd9959207d83df8ad801176fbc459f575b98"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Package_SON.3dshapes\\WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step",
+      "source_sha256": "a159a524ab16d3406353a16f8c20b59f5679eea26e2d41174628288b5b9da702",
+      "output": "libraries/3dmodels/KiCad_Standard/Package_SON.3dshapes/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step",
+      "changes": [],
+      "output_sha256": "a159a524ab16d3406353a16f8c20b59f5679eea26e2d41174628288b5b9da702"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Package_TO_SOT_SMD.3dshapes\\SOT-583-8.step",
+      "source_sha256": "34d40dd5a4b023474c893715ba83608c48ba22a44d91723fb6791db21a0f63bb",
+      "output": "libraries/3dmodels/KiCad_Standard/Package_TO_SOT_SMD.3dshapes/SOT-583-8.step",
+      "changes": [],
+      "output_sha256": "34d40dd5a4b023474c893715ba83608c48ba22a44d91723fb6791db21a0f63bb"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+      "source_sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "output": "libraries/3dmodels/KiCad_Standard/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "changes": [],
+      "output_sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_0805_2012Metric_Pad1.18x1.45mm_HandSolder.kicad_mod",
+      "source_sha256": "4ff5ae9bd9bdd9ae457d396a074f7e07bf6684320715d188ca2b32a04d6f99ce",
+      "output": "libraries/KiCad_Standard/Capacitor_SMD.pretty/C_0805_2012Metric_Pad1.18x1.45mm_HandSolder.kicad_mod",
+      "changes": [
+        "Model paths local; geometry and transforms retained"
+      ],
+      "output_sha256": "231b8847dbb3dc03c46eef700023eff35992158a5399bf02c3f41fdcd96b8a22"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod",
+      "source_sha256": "2d37b5f8c29279d9a22ec2f327575b7234c41e02750220d18657cbdb303f88ab",
+      "output": "libraries/KiCad_Standard/Capacitor_SMD.pretty/C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod",
+      "changes": [
+        "Model paths local; geometry and transforms retained"
+      ],
+      "output_sha256": "0b890a3481e99568b6a9d3457154417742309cacbe82e09205e37b1fb0a10802"
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\Teensy_FC.kicad_sch",
+      "output": "libraries/KiCad_Standard/Connector.kicad_sym",
+      "selection": [
+        "TestPoint"
+      ],
+      "changes": [
+        "Selected complete flattened standard cache symbols; removed nickname from outer symbol ID only"
+      ],
+      "output_sha256": "5d65a88b36fa89ae7172f7854c2f39f1764d1435c3e312b0c1437a9187b4353e"
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\Teensy_FC.kicad_sch",
+      "output": "libraries/KiCad_Standard/Connector_Generic.kicad_sym",
+      "selection": [
+        "Conn_01x01",
+        "Conn_01x03"
+      ],
+      "changes": [
+        "Selected complete flattened standard cache symbols; removed nickname from outer symbol ID only"
+      ],
+      "output_sha256": "048c8fbd4266db53a042bb427f7d3f51b4fd0ccefb9f0e41cdefcac5266e09f5"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_PinHeader_2.54mm.pretty\\PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+      "source_sha256": "6a7dba97d6e733fd9d5f12d2d57f2cde29e8393e15b08d8b3e41bf2b430d83ed",
+      "output": "libraries/KiCad_Standard/Connector_PinHeader_2.54mm.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+      "changes": [
+        "Model paths local; geometry and transforms retained"
+      ],
+      "output_sha256": "3fd5745b3699004d6de0581a3082f516aea0a93e09f57d4fbfbfd15e5ca845e3"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\symbols\\Device.kicad_sym",
+      "source_sha256": "b055c9db747f615ce86b1aaacd4146e14d03b575c00dd2430a0546fd4c78aa99",
+      "output": "libraries/KiCad_Standard/Device.kicad_sym",
+      "selection": "LED",
+      "output_sha256": "b0f167b55ccff6226efb5e97e73fbf68b3ff2541d9717cf39c03cae9ef3a493a"
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\Teensy_FC.kicad_sch",
+      "output": "libraries/KiCad_Standard/Device.kicad_sym",
+      "selection": [
+        "Battery_Cell",
+        "C_Small",
+        "L",
+        "R"
+      ],
+      "changes": [
+        "Selected complete flattened standard cache symbols; removed nickname from outer symbol ID only"
+      ],
+      "output_sha256": "b0f167b55ccff6226efb5e97e73fbf68b3ff2541d9717cf39c03cae9ef3a493a"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\LED_SMD.pretty\\LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder.kicad_mod",
+      "source_sha256": "f1e84ecdc7c63c7fa9d15da59d731fb6c67cdfcaa30279a972d14d0b5dba266d",
+      "output": "libraries/KiCad_Standard/LED_SMD.pretty/LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder.kicad_mod",
+      "changes": [
+        "Model paths local; geometry and transforms retained"
+      ],
+      "output_sha256": "b4c77feb56ce27bee16b50f13bc52474799c7484fb6c7ce973ae5ee24c764984"
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\Teensy_FC.kicad_sch",
+      "output": "libraries/KiCad_Standard/Mechanical.kicad_sym",
+      "selection": [
+        "MountingHole"
+      ],
+      "changes": [
+        "Selected complete flattened standard cache symbols; removed nickname from outer symbol ID only"
+      ],
+      "output_sha256": "323f775ba65ebcb1fba79ca96216f29dcae6db919b8d0c00e45c48494f47c01c"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_SON.pretty\\WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias.kicad_mod",
+      "source_sha256": "99e03b2357e47d557a5dcdf625cf8b9058d53139a8cac452472d28221a15b9ef",
+      "output": "libraries/KiCad_Standard/Package_SON.pretty/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias.kicad_mod",
+      "changes": [
+        "Model paths local; geometry and transforms retained"
+      ],
+      "output_sha256": "819d99607fc36b584c5f702d312ce53b69f74295970df54c114b1c9dea326311"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-583-8.kicad_mod",
+      "source_sha256": "1a11b951fe708b968c2fdb606ef922c160e2cb86dd871f29e5aabba108616a4a",
+      "output": "libraries/KiCad_Standard/Package_TO_SOT_SMD.pretty/SOT-583-8.kicad_mod",
+      "changes": [
+        "Model paths local; geometry and transforms retained"
+      ],
+      "output_sha256": "be1e17657268e2748620cc1b18f5bd72ed6ced56a6793798171dc7481014a8ee"
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\Teensy_FC.kicad_sch",
+      "output": "libraries/KiCad_Standard/Regulator_Linear.kicad_sym",
+      "selection": [
+        "LP5912-3.3DRV"
+      ],
+      "changes": [
+        "Selected complete flattened standard cache symbols; removed nickname from outer symbol ID only"
+      ],
+      "output_sha256": "dac2ca333aa7eda2605b2be5b955d690ba7c53e79edc11dbe08c4489484599eb"
+    },
+    {
+      "source": "C:\\Users\\torab\\OneDrive\\Documents\\Claude 426 labs\\Week 8\\Flightcontroller V-Final - no connections\\Teensy_FC\\Teensy_FC.kicad_sch",
+      "output": "libraries/KiCad_Standard/Regulator_Switching.kicad_sym",
+      "selection": [
+        "TPS62933"
+      ],
+      "changes": [
+        "Selected complete flattened standard cache symbols; removed nickname from outer symbol ID only"
+      ],
+      "output_sha256": "55816c2cf4eae4d43abea3f86343f5c6a5fad93f045b04963cf53077d85c0f5f"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_0805_2012Metric_Pad1.20x1.40mm_HandSolder.kicad_mod",
+      "source_sha256": "fb326cf83cae995ce84db4ec340d672042a8496cfa81333f6deda72c8546ba3a",
+      "output": "libraries/KiCad_Standard/Resistor_SMD.pretty/R_0805_2012Metric_Pad1.20x1.40mm_HandSolder.kicad_mod",
+      "changes": [
+        "Model paths local; geometry and transforms retained"
+      ],
+      "output_sha256": "a2a94bb0546ef666e8f2c4ef2614ecd1ebb266606ebe214873d8a8cf38c6d231"
+    },
+    {
+      "source": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\TestPoint.pretty\\TestPoint_Pad_2.0x2.0mm.kicad_mod",
+      "source_sha256": "e6011f2e8f00c4f673e481ef5ae2931d10432e7f2ae8788c70a31d6f9897f280",
+      "output": "libraries/KiCad_Standard/TestPoint.pretty/TestPoint_Pad_2.0x2.0mm.kicad_mod",
+      "changes": [
+        "Model paths local; geometry and transforms retained"
+      ],
+      "output_sha256": "e6011f2e8f00c4f673e481ef5ae2931d10432e7f2ae8788c70a31d6f9897f280"
+    }
+  ],
+  "follow_up_changes": [
+    {
+      "date": "2026-10-03",
+      "scope": "nRF model assignment only; schematic and empty PCB unchanged",
+      "change": "External-antenna reference STEP replaces active standard PCB-antenna WRL; exact reference model transform retained; supporting kit notes and manifests updated",
+      "model": "libraries/3dmodels/NRF24l01_with_antenna.step",
+      "footprint": "libraries/RF_Module_Local.pretty/nRF24L01_Breakout.kicad_mod"
+    },
+    {
+      "date": "2026-10-03",
+      "scope": "Mechanical guidance only; native KiCad files and assets unchanged",
+      "change": "75 mm suggested minimum width/height; 85 mm maximum width/height; 3.3 mm mounting holes and centered 25 x 25 mm spacing highly recommended, not mandatory; 80 x 80 mm retained as example"
+    },
+    {
+      "date": "2026-10-03",
+      "scope": "Publication cleanup; native KiCad files, libraries and models unchanged",
+      "changes": [
+        "Aligned handout with native starter workflow and exact IMU alternatives",
+        "Made Teensy pins 45\u201354 footprint limitation and online-only ST datasheet explicit",
+        "Removed 13 unused embedded handout images; preserved all unconnected schematic images",
+        "Refreshed routed-PCB and 3D study images from current corrected board; nRF added only to render-only copy"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "scope": "IMU starter schematic choice notice only",
+      "change": "Confirmed U8 Adafruit MPU6050, U10 HiLetgo GY-521 MPU6050 and U9 Adafruit LSM6DSO32 are placed in the IMU block with matching footprints; notice now says keep the purchased module and delete the other two symbols. Symbols, pin maps, placement and libraries unchanged."
+    },
+    {
+      "date": "2026-10-04",
+      "scope": "Firmware reference and documentation; native KiCad files and assets unchanged",
+      "changes": [
+        "Two user-selected instructor sketches copied with recursive local headers; nonmotor GPIOs and divider values redacted, mandatory four ESC pins retained, compile guards added",
+        "All eight schematic study images regenerated from the current unconnected starter, including three IMU alternatives and TBD values",
+        "Handout and guides explicitly require the four ESC GPIOs; no firmware compile/flash deliverable added"
+      ],
+      "firmware_sources": [
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\Teensy_Drone_VFinal_LSM_Accel32_UserTune.ino",
+          "source_sha256": "90cb850829a1ab13919f45d74a8daca8d848e1f034035b38a89d2162f699d358",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/Teensy_FC_LSM6DSO32_Student_Reference.ino"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\BenchReport.h",
+          "source_sha256": "ff803094aa61cc5c8c9e2b6684ce3932ea455cef67b766fab7af1f551ada59e9",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/BenchReport.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\DiagnosticIntegration.h",
+          "source_sha256": "cc15b07f26eba31b890be505949a0e95fc8b99d69350f14cfcf334653bc3fbf4",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/DiagnosticIntegration.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\SteadyCapture.h",
+          "source_sha256": "10e2e5238e2829ca68f759b113a3f23ea0b683250992dae0c8d4cb773bffe57c",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/SteadyCapture.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\GyroNotch.h",
+          "source_sha256": "00707c978bbd490cde84a947e3d921016cf005e6d8fa3a0434fde5434f50730b",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/GyroNotch.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\DiagnosticRecorder.h",
+          "source_sha256": "199ee49cbc3e766c388bc25dc032424fb7955c29219d80cabae9e4880ae12d4c",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/DiagnosticRecorder.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\AccelDiagnostics.h",
+          "source_sha256": "acdbc83f661cfb7c7c62b6c1d72e97d5861abeeae903c80c3faa92bc28ceba57",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/AccelDiagnostics.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\AccelGuard.h",
+          "source_sha256": "da657746de61f6fc37930dec6ee11a305bcb0a316c1abb399675dab62cf48224",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/AccelGuard.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\FailsafeDescent.h",
+          "source_sha256": "e8127369657ec46fe1c8ac48bc9dae58cf9c8429e68c53aa8b44488fb9367492",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/FailsafeDescent.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\PidLink.h",
+          "source_sha256": "1d0a3200ae7cc11a219ea1e9ddc9b0b9189c498ba0d1006614eb47ea1829877f",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/PidLink.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\NonBlockingUsb.h",
+          "source_sha256": "5a619d5a43a21a18e410a0e799dda5e6043234f97506e96b2a2dbfd587382ee2",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/NonBlockingUsb.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_LSM_Accel32_UserTune\\ReceiverProtocolConfig.h",
+          "source_sha256": "98bbd5faef2f0993c9edb1cc729700d9024eb1fce224bf8e36e92e7d7005170a",
+          "output": "Firmware_Reference/Teensy_FC_LSM6DSO32_Student_Reference/ReceiverProtocolConfig.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_MPU6050_Fixed\\Teensy_Drone_VFinal_MPU6050_Fixed.ino",
+          "source_sha256": "774317fb81f2e8944aa036220d1891fe2d33053e1cf85769489acd43507357d7",
+          "output": "Firmware_Reference/Teensy_FC_MPU6050_Student_Reference/Teensy_FC_MPU6050_Student_Reference.ino"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_MPU6050_Fixed\\FailsafeDescent.h",
+          "source_sha256": "e9722329ba51344fccdd98c81698e75e7aa650b7564b2c466060fbeb9a56e1f8",
+          "output": "Firmware_Reference/Teensy_FC_MPU6050_Student_Reference/FailsafeDescent.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_MPU6050_Fixed\\PidLink.h",
+          "source_sha256": "fca8094c08d87f2c75b3e174934bc9fe20c5c9843f8a1254a094f4d56a3f59e0",
+          "output": "Firmware_Reference/Teensy_FC_MPU6050_Student_Reference/PidLink.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_MPU6050_Fixed\\NonBlockingUsb.h",
+          "source_sha256": "8166cfd218dd191c0a531c988375fd7eeaddbfb3a18439eed0bc79934917b18b",
+          "output": "Firmware_Reference/Teensy_FC_MPU6050_Student_Reference/NonBlockingUsb.h"
+        },
+        {
+          "source": "C:\\Users\\torab\\OneDrive\\Documents\\426\\VFinal_Firmware_Port_20260916\\Teensy_Drone_VFinal_MPU6050_Fixed\\ReceiverProtocolConfig.h",
+          "source_sha256": "39a4db590104a9a1472e74b31b8a445508a301676ded113845ad7f053fff9cd4",
+          "output": "Firmware_Reference/Teensy_FC_MPU6050_Student_Reference/ReceiverProtocolConfig.h"
+        }
+      ],
+      "schematic_image_source_sha256": "328ea0e23fc5d2c2fbc5ace6379f0783088776fe1fdf58892073629b2b258789",
+      "upstream_license_url": "https://raw.githubusercontent.com/nickrehm/dRehmFlight/master/LICENSE",
+      "upstream_license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "date": "2026-10-04",
+      "scope": "User correction: required motor pin set, not channel assignment",
+      "changes": [
+        "Supersedes prior mandatory M1/D8\u2013M2/D4\u2013M3/D22\u2013M4/D23 requirement. Require D4, D8, D22, D23 once each; motor-to-pin order is student-selected and must be consistent across schematic, PCB and later firmware.",
+        "Handout table and kit guides corrected; firmware retains an example order, course guard now accepts all pin-set permutations, optional register-specific DShot guard preserved.",
+        "All native KiCad files, libraries, models and schematic screenshots remain unchanged."
+      ]
+    }
+  ]
+}
