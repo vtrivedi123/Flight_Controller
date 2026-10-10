@@ -6485,12 +6485,12 @@
 		(uuid "77d28992-a732-4bbe-992b-0648a2d4215f")
 	)
 	(label "5V_OUT"
-		(at 140.97 172.72 90)
+		(at 140.97 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7ac2c980-ab90-4175-afcb-7eeac15a537d")
 	)
@@ -6815,12 +6815,12 @@
 		(uuid "ee728dfc-4d93-4ceb-af33-a6078170a435")
 	)
 	(label "5V_OUT"
-		(at 153.67 172.72 90)
+		(at 153.67 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "efc57996-1114-4a7e-97de-bc86263e743f")
 	)
