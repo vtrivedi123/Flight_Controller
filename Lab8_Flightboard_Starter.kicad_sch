@@ -11082,7 +11082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "0.1u"
 			(at 395.478 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12632,7 +12632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2.2u"
 			(at 383.54 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
