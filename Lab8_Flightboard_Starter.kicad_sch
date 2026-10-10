@@ -6215,12 +6215,12 @@
 		(uuid "0fb51cb9-3023-4b7e-9751-ed94228b19f0")
 	)
 	(label "3.3V_GP"
-		(at 393.7 33.02 90)
+		(at 393.7 33.02 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "10452515-ffce-4d7c-8ddf-2321045c9d9f")
 	)
@@ -6575,12 +6575,12 @@
 		(uuid "91f3a80f-4a79-4218-9c70-3ee94954144b")
 	)
 	(label "3.3V_GP"
-		(at 381 33.02 90)
+		(at 381 33.02 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "934cd42b-4e29-49bc-91c8-45f057d19576")
 	)
@@ -6675,12 +6675,12 @@
 		(uuid "b5d6b0b5-75c4-45b2-b275-cb6080d75db5")
 	)
 	(label "3.3V_GP"
-		(at 359.41 30.48 90)
+		(at 359.41 30.48 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b94dcd27-e350-4a3c-800b-53199a6f17df")
 	)
