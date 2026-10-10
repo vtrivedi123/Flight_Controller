@@ -5935,16 +5935,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.855 242.1017) (xy 139.7 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f0615e4-008e-4c3c-8156-ab30634bc1c0")
-	)
-	(wire
-		(pts
 			(xy 83.82 44.45) (xy 85.09 44.45)
 		)
 		(stroke
@@ -6713,7 +6703,7 @@
 		)
 		(uuid "97d9851d-7f96-4867-b0b5-b1d4b80f671c")
 	)
-	(label "ADC6"
+	(label "ADC3"
 		(at 58.42 191.77 180)
 		(effects
 			(font
@@ -6803,8 +6793,8 @@
 		)
 		(uuid "b5d6b0b5-75c4-45b2-b275-cb6080d75db5")
 	)
-	(label "ADC6"
-		(at 147.855 242.1017 180)
+	(label "ADC3"
+		(at 139.7 242.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
