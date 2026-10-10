@@ -3301,7 +3301,7 @@
 		(at 147.15 73.175)
 		(descr "Adafruit LSM6DSO32 6-DoF IMU breakout, product 4692; 25.4 x 17.78 mm; 1x9 primary and 1x5 auxiliary 2.54 mm headers.")
 		(tags "Adafruit LSM6DSO32 breakout IMU I2C SPI STEMMA QT")
-		(property "Reference" "LSM"
+		(property "Reference" "U9"
 			(at 0 -10.4 0)
 			(layer "F.SilkS")
 			(uuid "2a087595-60da-409b-b413-ea6dc79c8840")
