@@ -5307,12 +5307,32 @@
 		(uuid "fc22ed1a-e2ca-4461-b767-89d6f65e2790")
 	)
 	(no_connect
+		(at 110.49 158.75)
+		(uuid "080db4ed-4f8c-446f-9785-8100491b83f1")
+	)
+	(no_connect
 		(at 114.3 83.82)
 		(uuid "0862dd2a-16c7-4a51-95c8-1d5ee5eb3ece")
 	)
 	(no_connect
+		(at 110.49 189.23)
+		(uuid "15b75dad-30bf-496f-9ff3-822e3622d29b")
+	)
+	(no_connect
 		(at 308.61 111.76)
 		(uuid "1bf0bfa9-6faa-4dc1-8e3f-dceb70f7d42e")
+	)
+	(no_connect
+		(at 110.49 166.37)
+		(uuid "36859d28-ddc2-4430-828f-d8f595f44cd1")
+	)
+	(no_connect
+		(at 110.49 173.99)
+		(uuid "699f95dd-9564-45ef-b5ea-f92df2c2591c")
+	)
+	(no_connect
+		(at 110.49 163.83)
+		(uuid "6e97beaf-4e15-4be7-b77c-44e030089ead")
 	)
 	(no_connect
 		(at 281.94 109.22)
@@ -5327,6 +5347,10 @@
 		(uuid "7d06dc30-f4a6-4b6c-bd23-ec82557e902c")
 	)
 	(no_connect
+		(at 110.49 171.45)
+		(uuid "85e07509-b7c0-40b7-b0fb-5cfbea3eed1a")
+	)
+	(no_connect
 		(at 330.2 173.99)
 		(uuid "8795d8ae-9c7a-4139-b687-2f1847a15cc9")
 	)
@@ -5339,12 +5363,24 @@
 		(uuid "8fc221f0-7d57-44b7-8153-b6609260936d")
 	)
 	(no_connect
+		(at 110.49 176.53)
+		(uuid "a43a08e0-acf8-4f7e-8595-c93c6bdf110c")
+	)
+	(no_connect
 		(at 295.91 120.65)
 		(uuid "a716e565-ec95-4157-80e8-bcd6190aeaad")
 	)
 	(no_connect
+		(at 110.49 179.07)
+		(uuid "c93400ba-1485-4aab-9202-d1958fae262c")
+	)
+	(no_connect
 		(at 196.85 48.26)
 		(uuid "d6d1e5fe-79a7-4de7-82ac-651fe38d1744")
+	)
+	(no_connect
+		(at 110.49 161.29)
+		(uuid "dbf3684e-1f16-441a-b82b-a7472628a151")
 	)
 	(no_connect
 		(at 330.2 185.42)
@@ -5353,6 +5389,14 @@
 	(no_connect
 		(at 281.94 111.76)
 		(uuid "e7d3c1a8-b708-407d-92af-94d6a4d4f9f1")
+	)
+	(no_connect
+		(at 110.49 168.91)
+		(uuid "eb3e96d6-5447-4215-80a0-17a82a11f07b")
+	)
+	(no_connect
+		(at 110.49 181.61)
+		(uuid "f6bfc361-bf4a-4012-9b7a-cb443d20a862")
 	)
 	(wire
 		(pts
@@ -11519,6 +11563,85 @@
 			(project "Lab8_Flightboard_Starter"
 				(path "/8da9c326-3337-46e2-8624-067ffceed853"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d604dfd-cd7e-4b00-8b7c-c47b8b0978da")
+		(property "Reference" "#PWR045"
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 151.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac71ddba-a40d-45f3-a0f8-bd1203f568a8")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
