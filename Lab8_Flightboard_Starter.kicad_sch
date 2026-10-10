@@ -5193,6 +5193,12 @@
 		(uuid "2694e728-5271-4856-a25e-eb21cb6b6e8a")
 	)
 	(junction
+		(at 133.35 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ad864a5-44d8-4f1f-976d-8a1b5a8c5658")
+	)
+	(junction
 		(at 176.53 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5283,6 +5289,12 @@
 		(uuid "afa09435-542d-4242-b819-42d84c92a4ec")
 	)
 	(junction
+		(at 186.69 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b51e6dca-3f2e-41c3-b0be-80405bc84ca1")
+	)
+	(junction
 		(at 142.24 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5295,20 +5307,12 @@
 		(uuid "fc22ed1a-e2ca-4461-b767-89d6f65e2790")
 	)
 	(no_connect
-		(at 189.23 53.34)
-		(uuid "0262ae7a-cb25-4100-9ce5-a4a21e892d7a")
-	)
-	(no_connect
 		(at 114.3 83.82)
 		(uuid "0862dd2a-16c7-4a51-95c8-1d5ee5eb3ece")
 	)
 	(no_connect
 		(at 308.61 111.76)
 		(uuid "1bf0bfa9-6faa-4dc1-8e3f-dceb70f7d42e")
-	)
-	(no_connect
-		(at 135.89 54.61)
-		(uuid "3e828832-4ac5-4431-8492-88407b3ddfc5")
 	)
 	(no_connect
 		(at 281.94 109.22)
@@ -5472,6 +5476,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 53.34) (xy 189.23 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e6f599-97af-41c1-9d8e-2d5a36f2f52f")
+	)
+	(wire
+		(pts
 			(xy 147.32 43.18) (xy 147.32 44.45)
 		)
 		(stroke
@@ -5599,6 +5613,16 @@
 			(type default)
 		)
 		(uuid "aa5be0d6-9016-48ff-bbf2-af4cc67860ce")
+	)
+	(wire
+		(pts
+			(xy 133.35 54.61) (xy 135.89 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad14058e-a54b-48bd-bd46-ec4618ef17d6")
 	)
 	(wire
 		(pts
@@ -6099,7 +6123,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1k"
 			(at 143.51 229.108 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6555,7 +6579,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 297.18 165.1 90)
+		(at 289.56 165.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6565,7 +6589,7 @@
 		(dnp no)
 		(uuid "1399b5d7-a3ac-4f80-b030-961db44bbeb8")
 		(property "Reference" "R6"
-			(at 296.926 162.814 90)
+			(at 289.814 167.386 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6574,8 +6598,8 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
-			(at 297.18 167.64 90)
+		(property "Value" "47"
+			(at 289.56 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6585,7 +6609,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 297.18 166.878 90)
+			(at 289.56 163.322 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6596,7 +6620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 165.1 0)
+			(at 289.56 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6607,7 +6631,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 297.18 165.1 0)
+			(at 289.56 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6627,6 +6651,85 @@
 			(project "Lab8_Flightboard_Starter"
 				(path "/8da9c326-3337-46e2-8624-067ffceed853"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 285.75 165.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "143778f2-5941-40e4-acaf-010623d29c38")
+		(property "Reference" "#PWR036"
+			(at 279.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 285.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33df62c1-1d9f-43b6-b009-9dfc979f26a3")
+		)
+		(instances
+			(project "Lab8_Flightboard_Starter"
+				(path "/8da9c326-3337-46e2-8624-067ffceed853"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6847,7 +6950,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1k"
 			(at 143.51 240.538 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7085,7 +7188,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "22k"
 			(at 255.27 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7139,85 +7242,6 @@
 			(project "Lab8_Flightboard_Starter"
 				(path "/8da9c326-3337-46e2-8624-067ffceed853"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 285.75 165.1 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2da67ccb-8375-4c30-a5ee-3314b3172d45")
-		(property "Reference" "#PWR017"
-			(at 279.4 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 281.94 165.0999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 285.75 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 285.75 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17280fed-4a5a-42ce-872f-f8c383ab1b8a")
-		)
-		(instances
-			(project "Lab8_Flightboard_Starter"
-				(path "/8da9c326-3337-46e2-8624-067ffceed853"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7642,7 +7666,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "47"
 			(at 289.1772 193.802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7799,7 +7823,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8u"
+		(property "Value" "3.3u"
 			(at 135.89 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7956,7 +7980,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "100k"
 			(at 248.666 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8430,7 +8454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "4.7u"
 			(at 143.51 180.3462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8510,7 +8534,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "47"
 			(at 289.56 183.642 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8981,7 +9005,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "100k"
 			(at 296.926 193.4228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9051,7 +9075,7 @@
 		(dnp no)
 		(uuid "6fa2986e-ee19-4114-9718-4f472284bb9e")
 		(property "Reference" "R2"
-			(at 136.652 91.44 0)
+			(at 135.382 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9061,8 +9085,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "55k"
-			(at 136.652 93.98 0)
+		(property "Value" "52.3k"
+			(at 135.382 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9222,7 +9246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "2.2u"
 			(at 203.2 46.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9383,7 +9407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "2.2u"
 			(at 149.86 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9463,7 +9487,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "47"
 			(at 289.306 173.482 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9626,7 +9650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2.2u"
 			(at 270.002 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9863,7 +9887,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10k"
 			(at 71.12 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9923,7 +9947,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 262.89 113.03 180)
+		(at 262.89 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9933,7 +9957,7 @@
 		(dnp no)
 		(uuid "8cdea3f2-b2e8-41be-b687-0ae3108de11b")
 		(property "Reference" "R16"
-			(at 258.572 113.03 90)
+			(at 262.89 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9942,8 +9966,8 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
-			(at 260.604 113.03 90)
+		(property "Value" "10k"
+			(at 262.89 113.284 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9953,7 +9977,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 264.668 113.03 90)
+			(at 262.89 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9964,7 +9988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 113.03 0)
+			(at 262.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9975,7 +9999,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 262.89 113.03 0)
+			(at 262.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10657,7 +10681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "2.2u"
 			(at 114.3 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10977,7 +11001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "0.1u"
 			(at 250.698 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11392,7 +11416,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 289.56 165.1 90)
+		(at 297.18 165.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11402,7 +11426,7 @@
 		(dnp no)
 		(uuid "b178d09f-d588-4095-b82f-528f2795ff3e")
 		(property "Reference" "R7"
-			(at 289.56 163.068 90)
+			(at 297.18 167.132 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11411,8 +11435,8 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
-			(at 289.56 167.386 90)
+		(property "Value" "100k"
+			(at 297.18 162.814 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11422,7 +11446,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 289.56 166.878 90)
+			(at 297.18 163.322 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11433,7 +11457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 165.1 0)
+			(at 297.18 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11444,7 +11468,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 289.56 165.1 0)
+			(at 297.18 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11919,7 +11943,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "100k"
 			(at 297.18 173.228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12078,7 +12102,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "47u"
 			(at 149.86 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12255,7 +12279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2.2u"
 			(at 264.16 53.3462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12689,7 +12713,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "2.2u"
 			(at 167.132 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13412,7 +13436,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "0.1u"
 			(at 156.21 180.3462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13895,7 +13919,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "100k"
 			(at 297.18 183.388 90)
 			(show_name no)
 			(do_not_autoplace no)
