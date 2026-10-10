@@ -950,14 +950,14 @@
 	(footprint "FC_Mechanical:MountingHole_3.3mm_no-courtyard"
 		(layer "F.Cu")
 		(uuid "0fee3752-e0eb-40e3-8e6c-cf1b5ead24c0")
-		(at 99.13 85.95)
+		(at 214 73.5)
 		(descr "Mounting Hole 3.3mm, no annular, no courtyard")
 		(tags "mounting hole 3.3mm no annular, no courtyard")
 		(property "Reference" "H2"
 			(at 0 -4.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b96ce2df-6667-4ffc-8796-d171b0b17e34")
+			(uuid "2f3ece93-855a-4284-81af-4e2c160c2cbe")
 			(effects
 				(font
 					(size 1 1)
@@ -968,7 +968,7 @@
 		(property "Value" "MountingHole"
 			(at 0 2.7 0)
 			(layer "F.Fab")
-			(uuid "b0e1bbe2-110f-4942-a3c8-3036e2ccd073")
+			(uuid "d30b6e3d-9a20-4cf5-8f59-ae3a5e0144f4")
 			(effects
 				(font
 					(size 1 1)
@@ -980,7 +980,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce6a14da-b234-477d-b930-b4caec0fb0f7")
+			(uuid "3404029f-6346-4a72-ad1c-1888189777fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +991,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb1640a7-31d7-495e-aa29-891257e9f969")
+			(uuid "80b1fef4-b72f-485a-b49d-f71b981ebff6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1665,7 @@
 	(footprint "FC_Mechanical:MountingHole_3.3mm_no-courtyard"
 		(layer "F.Cu")
 		(uuid "214b0f28-4242-4479-9578-9491361b3c74")
-		(at 99.13 94.55)
+		(at 214 98.5)
 		(descr "Mounting Hole 3.3mm, no annular, no courtyard")
 		(tags "mounting hole 3.3mm no annular, no courtyard")
 		(property "Reference" "H4"
@@ -3990,7 +3990,7 @@
 	(footprint "FC_Mechanical:MountingHole_3.3mm_no-courtyard"
 		(layer "F.Cu")
 		(uuid "51c8ab7d-e100-40cc-b6bc-58632fecc8d0")
-		(at 99.13 81.65)
+		(at 189 73.5)
 		(descr "Mounting Hole 3.3mm, no annular, no courtyard")
 		(tags "mounting hole 3.3mm no annular, no courtyard")
 		(property "Reference" "H1"
@@ -5919,7 +5919,7 @@
 	(footprint "FC_Mechanical:MountingHole_3.3mm_no-courtyard"
 		(layer "F.Cu")
 		(uuid "727f53f2-26e5-4215-be7c-2d69056ddfaa")
-		(at 99.13 90.25)
+		(at 189 98.5)
 		(descr "Mounting Hole 3.3mm, no annular, no courtyard")
 		(tags "mounting hole 3.3mm no annular, no courtyard")
 		(property "Reference" "H3"
