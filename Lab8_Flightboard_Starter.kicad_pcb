@@ -6286,7 +6286,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "3.3u"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

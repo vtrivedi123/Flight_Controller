@@ -8946,7 +8946,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "3.3u"
 			(at 135.89 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
