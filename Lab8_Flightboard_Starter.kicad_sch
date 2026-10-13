@@ -6583,7 +6583,7 @@
 		)
 		(uuid "567ed026-bdfb-451d-a0b8-a6e7a361e044")
 	)
-	(label "VBAT"
+	(label "SYS_VIN"
 		(at 252.73 39.37 180)
 		(effects
 			(font
