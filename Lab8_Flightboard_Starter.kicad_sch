@@ -7405,7 +7405,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47"
 			(at 299.72 185.928 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8155,7 +8155,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "100k"
 			(at 292.1 186.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10760,7 +10760,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47"
 			(at 299.466 195.9628 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11478,7 +11478,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47"
 			(at 299.72 175.768 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12192,7 +12192,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "100k"
 			(at 291.7172 196.342 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13263,7 +13263,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47"
 			(at 299.72 165.354 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13771,7 +13771,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "100k"
 			(at 291.846 176.022 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15667,7 +15667,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "100k"
 			(at 292.1 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
